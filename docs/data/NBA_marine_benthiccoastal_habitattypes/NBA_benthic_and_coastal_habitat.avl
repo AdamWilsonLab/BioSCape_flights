@@ -1,0 +1,4707 @@
+/3.2
+(ODB.1
+	FirstRootClassName:	"Legend"
+	Roots:	2
+	Version:	32
+)
+
+(Legend.2
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	3
+	Symbols:	4
+	Class:	574
+	Class:	575
+	Class:	576
+	Class:	577
+	Class:	578
+	Class:	579
+	Class:	580
+	Class:	581
+	Class:	582
+	Class:	583
+	Class:	584
+	Class:	585
+	Class:	586
+	Class:	587
+	Class:	588
+	Class:	589
+	Class:	590
+	Class:	591
+	Class:	592
+	Class:	593
+	Class:	594
+	Class:	595
+	Class:	596
+	Class:	597
+	Class:	598
+	Class:	599
+	Class:	600
+	Class:	601
+	Class:	602
+	Class:	603
+	Class:	604
+	Class:	605
+	Class:	606
+	Class:	607
+	Class:	608
+	Class:	609
+	Class:	610
+	Class:	611
+	Class:	612
+	Class:	613
+	Class:	614
+	Class:	615
+	Class:	616
+	Class:	617
+	Class:	618
+	Class:	619
+	Class:	620
+	Class:	621
+	Class:	622
+	Class:	623
+	Class:	624
+	Class:	625
+	Class:	626
+	Class:	627
+	Class:	628
+	Class:	629
+	Class:	630
+	Class:	631
+	Class:	632
+	Class:	633
+	Class:	634
+	Class:	635
+	Class:	636
+	Class:	637
+	Class:	638
+	Class:	639
+	Class:	640
+	Class:	641
+	Class:	642
+	Class:	643
+	Class:	644
+	Class:	645
+	Class:	646
+	Class:	647
+	Class:	648
+	Class:	649
+	Class:	650
+	Class:	651
+	Class:	652
+	Class:	653
+	Class:	654
+	Class:	655
+	Class:	656
+	Class:	657
+	Class:	658
+	Class:	659
+	Class:	660
+	Class:	661
+	Class:	662
+	Class:	663
+	Class:	664
+	Class:	665
+	Class:	666
+	Class:	667
+	Class:	668
+	Class:	669
+	Class:	670
+	Class:	671
+	Class:	672
+	Class:	673
+	Class:	674
+	Class:	675
+	Class:	676
+	Class:	677
+	Class:	678
+	Class:	679
+	Class:	680
+	Class:	681
+	Class:	682
+	Class:	683
+	Class:	684
+	Class:	685
+	Class:	686
+	Class:	687
+	Class:	688
+	Class:	689
+	Class:	690
+	Class:	691
+	Class:	692
+	Class:	693
+	Class:	694
+	Class:	695
+	StdDevs:	1.00000000000000
+	NullSym:	696
+	NullValues:	700
+	StatValues:	701
+	Precision:	-3
+)
+
+(AVStr.3
+	S:	"Habname"
+)
+
+(SymList.4
+	Child:	5
+	Child:	10
+	Child:	15
+	Child:	20
+	Child:	25
+	Child:	30
+	Child:	34
+	Child:	39
+	Child:	44
+	Child:	49
+	Child:	53
+	Child:	57
+	Child:	61
+	Child:	65
+	Child:	70
+	Child:	74
+	Child:	78
+	Child:	83
+	Child:	88
+	Child:	93
+	Child:	98
+	Child:	103
+	Child:	108
+	Child:	113
+	Child:	118
+	Child:	122
+	Child:	127
+	Child:	132
+	Child:	137
+	Child:	142
+	Child:	147
+	Child:	151
+	Child:	155
+	Child:	159
+	Child:	164
+	Child:	169
+	Child:	173
+	Child:	178
+	Child:	183
+	Child:	188
+	Child:	192
+	Child:	196
+	Child:	200
+	Child:	204
+	Child:	209
+	Child:	213
+	Child:	217
+	Child:	221
+	Child:	225
+	Child:	229
+	Child:	234
+	Child:	239
+	Child:	244
+	Child:	249
+	Child:	254
+	Child:	259
+	Child:	263
+	Child:	267
+	Child:	272
+	Child:	277
+	Child:	282
+	Child:	286
+	Child:	291
+	Child:	296
+	Child:	301
+	Child:	305
+	Child:	310
+	Child:	315
+	Child:	320
+	Child:	325
+	Child:	330
+	Child:	335
+	Child:	340
+	Child:	345
+	Child:	350
+	Child:	354
+	Child:	358
+	Child:	362
+	Child:	367
+	Child:	372
+	Child:	377
+	Child:	382
+	Child:	387
+	Child:	392
+	Child:	397
+	Child:	402
+	Child:	407
+	Child:	411
+	Child:	416
+	Child:	420
+	Child:	425
+	Child:	430
+	Child:	435
+	Child:	440
+	Child:	445
+	Child:	449
+	Child:	453
+	Child:	458
+	Child:	463
+	Child:	468
+	Child:	472
+	Child:	477
+	Child:	482
+	Child:	487
+	Child:	492
+	Child:	497
+	Child:	502
+	Child:	507
+	Child:	511
+	Child:	516
+	Child:	521
+	Child:	525
+	Child:	529
+	Child:	533
+	Child:	537
+	Child:	542
+	Child:	547
+	Child:	552
+	Child:	557
+	Child:	562
+	Child:	566
+	Child:	570
+)
+
+(BShSym.5
+	Color:	6
+	Outline:	1
+	OutlineColor:	7
+	OutlineWidth:	0.10000000000000
+	BgColor:	8
+	Style:	0x03
+	Stipple:	9
+)
+
+(TClr.6
+	Red:	0x189
+	Green:	0x8200
+	Blue:	0x81
+)
+
+(TClr.7
+)
+
+(TClr.8
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.9
+	Columns:	8
+	Rows:	8
+	Bits:	7cbbc4c7 c7bb4c7c 
+)
+
+(BShSym.10
+	Color:	11
+	Outline:	1
+	OutlineColor:	12
+	OutlineWidth:	0.10000000000000
+	BgColor:	13
+	Style:	0x03
+	Stipple:	14
+)
+
+(TClr.11
+	Red:	0x12e
+	Green:	0x6400
+	Blue:	0x63
+)
+
+(TClr.12
+)
+
+(TClr.13
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.14
+	Columns:	8
+	Rows:	8
+	Bits:	ffddff77 ffddff77 
+)
+
+(BShSym.15
+	Color:	16
+	Outline:	1
+	OutlineColor:	17
+	OutlineWidth:	0.10000000000000
+	BgColor:	18
+	Style:	0x03
+	Stipple:	19
+)
+
+(TClr.16
+	Red:	0xb3ff
+	Green:	0xb06f
+	Blue:	0x7b0b
+)
+
+(TClr.17
+)
+
+(TClr.18
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.19
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.20
+	Color:	21
+	Outline:	1
+	OutlineColor:	22
+	OutlineWidth:	0.10000000000000
+	BgColor:	23
+	Style:	0x03
+	Stipple:	24
+)
+
+(TClr.21
+	Red:	0x490b
+	Green:	0xbaff
+	Blue:	0x858f
+)
+
+(TClr.22
+)
+
+(TClr.23
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.24
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.25
+	Color:	26
+	Outline:	1
+	OutlineColor:	27
+	OutlineWidth:	0.10000000000000
+	BgColor:	28
+	Style:	0x03
+	Stipple:	29
+)
+
+(TClr.26
+	Red:	0x189
+	Green:	0x8200
+	Blue:	0x81
+)
+
+(TClr.27
+)
+
+(TClr.28
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.29
+	Columns:	8
+	Rows:	8
+	Bits:	00550055 00550055 
+)
+
+(BShSym.30
+	Color:	31
+	Outline:	1
+	OutlineColor:	32
+	OutlineWidth:	0.10000000000000
+	BgColor:	33
+)
+
+(TClr.31
+	Red:	0xb599
+	Green:	0xff00
+	Blue:	0xfe
+)
+
+(TClr.32
+)
+
+(TClr.33
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.34
+	Color:	35
+	Outline:	1
+	OutlineColor:	36
+	OutlineWidth:	0.10000000000000
+	BgColor:	37
+	Style:	0x03
+	Stipple:	38
+)
+
+(TClr.35
+	Red:	0x299
+	Green:	0xdc00
+	Blue:	0xdb
+)
+
+(TClr.36
+)
+
+(TClr.37
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.38
+	Columns:	8
+	Rows:	8
+	Bits:	d8c60660 6c8d8118 
+)
+
+(BShSym.39
+	Color:	40
+	Outline:	1
+	OutlineColor:	41
+	OutlineWidth:	0.10000000000000
+	BgColor:	42
+	Style:	0x03
+	Stipple:	43
+)
+
+(TClr.40
+	Red:	0x189
+	Green:	0x8200
+	Blue:	0x81
+)
+
+(TClr.41
+)
+
+(TClr.42
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.43
+	Columns:	8
+	Rows:	8
+	Bits:	d8c60660 6c8d8118 
+)
+
+(BShSym.44
+	Color:	45
+	Outline:	1
+	OutlineColor:	46
+	OutlineWidth:	0.10000000000000
+	BgColor:	47
+	Style:	0x03
+	Stipple:	48
+)
+
+(TClr.45
+	Red:	0x12e
+	Green:	0x6400
+	Blue:	0x63
+)
+
+(TClr.46
+)
+
+(TClr.47
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.48
+	Columns:	8
+	Rows:	8
+	Bits:	d8c60660 6c8d8118 
+)
+
+(BShSym.49
+	Color:	50
+	Outline:	1
+	OutlineColor:	51
+	OutlineWidth:	0.10000000000000
+	BgColor:	52
+)
+
+(TClr.50
+	Red:	0x81d2
+	Green:	0xf7ff
+	Blue:	0x5c07
+)
+
+(TClr.51
+)
+
+(TClr.52
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.53
+	Color:	54
+	Outline:	1
+	OutlineColor:	55
+	OutlineWidth:	0.10000000000000
+	BgColor:	56
+)
+
+(TClr.54
+	Red:	0xdc
+	Green:	0xdcff
+	Blue:	0x51a7
+)
+
+(TClr.55
+)
+
+(TClr.56
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.57
+	Color:	58
+	Outline:	1
+	OutlineColor:	59
+	OutlineWidth:	0.10000000000000
+	BgColor:	60
+)
+
+(TClr.58
+	Red:	0x81
+	Green:	0x81ff
+	Blue:	0x282
+)
+
+(TClr.59
+)
+
+(TClr.60
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.61
+	Color:	62
+	Outline:	1
+	OutlineColor:	63
+	OutlineWidth:	0.10000000000000
+	BgColor:	64
+)
+
+(TClr.62
+	Red:	0x9292
+	Green:	0xaeae
+	Blue:	0x2f2f
+)
+
+(TClr.63
+)
+
+(TClr.64
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.65
+	Color:	66
+	Outline:	1
+	OutlineColor:	67
+	OutlineWidth:	0.10000000000000
+	BgColor:	68
+	Style:	0x03
+	Stipple:	69
+)
+
+(TClr.66
+	Green:	0xffff
+)
+
+(TClr.67
+)
+
+(TClr.68
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.69
+	Columns:	8
+	Rows:	8
+	Bits:	d8c60660 6c8d8118 
+)
+
+(BShSym.70
+	Color:	71
+	Outline:	1
+	OutlineColor:	72
+	OutlineWidth:	0.10000000000000
+	BgColor:	73
+)
+
+(TClr.71
+	Red:	0xb46d
+	Green:	0xfcff
+	Blue:	0x8764
+)
+
+(TClr.72
+)
+
+(TClr.73
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.74
+	Color:	75
+	Outline:	1
+	OutlineColor:	76
+	OutlineWidth:	0.10000000000000
+	BgColor:	77
+)
+
+(TClr.75
+	Red:	0xc3b5
+	Green:	0xff00
+	Blue:	0xc33b
+)
+
+(TClr.76
+)
+
+(TClr.77
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.78
+	Color:	79
+	Outline:	1
+	OutlineColor:	80
+	OutlineWidth:	0.10000000000000
+	BgColor:	81
+	Style:	0x03
+	Stipple:	82
+)
+
+(TClr.79
+	Red:	0xa610
+	Green:	0xff00
+	Blue:	0xa559
+)
+
+(TClr.80
+)
+
+(TClr.81
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.82
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.83
+	Color:	84
+	Outline:	1
+	OutlineColor:	85
+	OutlineWidth:	0.10000000000000
+	BgColor:	86
+	Style:	0x03
+	Stipple:	87
+)
+
+(TClr.84
+	Red:	0x189
+	Green:	0x8200
+	Blue:	0x81
+)
+
+(TClr.85
+)
+
+(TClr.86
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.87
+	Columns:	8
+	Rows:	8
+	Bits:	00ff00ff 00ff00ff 
+)
+
+(BShSym.88
+	Color:	89
+	Outline:	1
+	OutlineColor:	90
+	OutlineWidth:	0.10000000000000
+	BgColor:	91
+	Style:	0x03
+	Stipple:	92
+)
+
+(TClr.89
+	Red:	0x299
+	Green:	0xdc00
+	Blue:	0xdb
+)
+
+(TClr.90
+)
+
+(TClr.91
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.92
+	Columns:	8
+	Rows:	8
+	Bits:	a3c78b11 b87c3a11 
+)
+
+(BShSym.93
+	Color:	94
+	Outline:	1
+	OutlineColor:	95
+	OutlineWidth:	0.10000000000000
+	BgColor:	96
+	Style:	0x03
+	Stipple:	97
+)
+
+(TClr.94
+	Red:	0x12e
+	Green:	0x6400
+	Blue:	0x63
+)
+
+(TClr.95
+)
+
+(TClr.96
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.97
+	Columns:	8
+	Rows:	8
+	Bits:	a3c78b11 b87c3a11 
+)
+
+(BShSym.98
+	Color:	99
+	Outline:	1
+	OutlineColor:	100
+	OutlineWidth:	0.10000000000000
+	BgColor:	101
+	Style:	0x03
+	Stipple:	102
+)
+
+(TClr.99
+	Red:	0x189
+	Green:	0x8200
+	Blue:	0x81
+)
+
+(TClr.100
+)
+
+(TClr.101
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.102
+	Columns:	8
+	Rows:	8
+	Bits:	a3c78b11 b87c3a11 
+)
+
+(BShSym.103
+	Color:	104
+	Outline:	1
+	OutlineColor:	105
+	OutlineWidth:	0.10000000000000
+	BgColor:	106
+	Style:	0x03
+	Stipple:	107
+)
+
+(TClr.104
+	Green:	0xffff
+)
+
+(TClr.105
+)
+
+(TClr.106
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.107
+	Columns:	8
+	Rows:	8
+	Bits:	01020408 10204080 
+)
+
+(BShSym.108
+	Color:	109
+	Outline:	1
+	OutlineColor:	110
+	OutlineWidth:	0.10000000000000
+	BgColor:	111
+	Style:	0x03
+	Stipple:	112
+)
+
+(TClr.109
+	Red:	0x299
+	Green:	0xdc00
+	Blue:	0xdb
+)
+
+(TClr.110
+)
+
+(TClr.111
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.112
+	Columns:	8
+	Rows:	8
+	Bits:	88112244 88112244 
+)
+
+(BShSym.113
+	Color:	114
+	Outline:	1
+	OutlineColor:	115
+	OutlineWidth:	0.10000000000000
+	BgColor:	116
+	Style:	0x03
+	Stipple:	117
+)
+
+(TClr.114
+	Red:	0x189
+	Green:	0x8200
+	Blue:	0x81
+)
+
+(TClr.115
+)
+
+(TClr.116
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.117
+	Columns:	8
+	Rows:	8
+	Bits:	3366cc99 3366cc99 
+)
+
+(BShSym.118
+	Color:	119
+	Outline:	1
+	OutlineColor:	120
+	OutlineWidth:	0.10000000000000
+	BgColor:	121
+)
+
+(TClr.119
+	Red:	0x3c11
+	Green:	0x6900
+	Blue:	0x68
+)
+
+(TClr.120
+)
+
+(TClr.121
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.122
+	Color:	123
+	Outline:	1
+	OutlineColor:	124
+	OutlineWidth:	0.10000000000000
+	BgColor:	125
+	Style:	0x03
+	Stipple:	126
+)
+
+(TClr.123
+	Red:	0xa610
+	Green:	0xff00
+	Blue:	0xa559
+)
+
+(TClr.124
+)
+
+(TClr.125
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.126
+	Columns:	8
+	Rows:	8
+	Bits:	11441144 11441144 
+)
+
+(BShSym.127
+	Color:	128
+	Outline:	1
+	OutlineColor:	129
+	OutlineWidth:	0.10000000000000
+	BgColor:	130
+	Style:	0x03
+	Stipple:	131
+)
+
+(TClr.128
+	Green:	0xffff
+)
+
+(TClr.129
+)
+
+(TClr.130
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.131
+	Columns:	8
+	Rows:	8
+	Bits:	40000400 40000400 
+)
+
+(BShSym.132
+	Color:	133
+	Outline:	1
+	OutlineColor:	134
+	OutlineWidth:	0.10000000000000
+	BgColor:	135
+	Style:	0x03
+	Stipple:	136
+)
+
+(TClr.133
+	Red:	0x299
+	Green:	0xdc00
+	Blue:	0xdb
+)
+
+(TClr.134
+)
+
+(TClr.135
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.136
+	Columns:	8
+	Rows:	8
+	Bits:	00440011 00440011 
+)
+
+(BShSym.137
+	Color:	138
+	Outline:	1
+	OutlineColor:	139
+	OutlineWidth:	0.10000000000000
+	BgColor:	140
+	Style:	0x03
+	Stipple:	141
+)
+
+(TClr.138
+	Red:	0x189
+	Green:	0x8200
+	Blue:	0x81
+)
+
+(TClr.139
+)
+
+(TClr.140
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.141
+	Columns:	8
+	Rows:	8
+	Bits:	00440011 00440011 
+)
+
+(BShSym.142
+	Color:	143
+	Outline:	1
+	OutlineColor:	144
+	OutlineWidth:	0.10000000000000
+	BgColor:	145
+	Style:	0x03
+	Stipple:	146
+)
+
+(TClr.143
+	Red:	0x30b
+	Green:	0x81ff
+	Blue:	0x1fc9
+)
+
+(TClr.144
+)
+
+(TClr.145
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.146
+	Columns:	8
+	Rows:	8
+	Bits:	00440011 00440011 
+)
+
+(BShSym.147
+	Color:	148
+	Outline:	1
+	OutlineColor:	149
+	OutlineWidth:	0.10000000000000
+	BgColor:	150
+)
+
+(TClr.148
+	Red:	0xb7b7
+	Green:	0xdfdf
+	Blue:	0x8686
+)
+
+(TClr.149
+)
+
+(TClr.150
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.151
+	Color:	152
+	Outline:	1
+	OutlineColor:	153
+	OutlineWidth:	0.10000000000000
+	BgColor:	154
+)
+
+(TClr.152
+	Red:	0xc3b5
+	Green:	0xff00
+	Blue:	0xc33b
+)
+
+(TClr.153
+)
+
+(TClr.154
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.155
+	Color:	156
+	Outline:	1
+	OutlineColor:	157
+	OutlineWidth:	0.10000000000000
+	BgColor:	158
+)
+
+(TClr.156
+	Red:	0x63
+	Green:	0x63ff
+	Blue:	0x1df1
+)
+
+(TClr.157
+)
+
+(TClr.158
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.159
+	Color:	160
+	Outline:	1
+	OutlineColor:	161
+	OutlineWidth:	0.10000000000000
+	BgColor:	162
+	Style:	0x03
+	Stipple:	163
+)
+
+(TClr.160
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.161
+)
+
+(TClr.162
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.163
+	Columns:	8
+	Rows:	8
+	Bits:	11441144 11441144 
+)
+
+(BShSym.164
+	Color:	165
+	Outline:	1
+	OutlineColor:	166
+	OutlineWidth:	0.10000000000000
+	BgColor:	167
+	Style:	0x03
+	Stipple:	168
+)
+
+(TClr.165
+	Red:	0xdc00
+	Green:	0xdb
+	Blue:	0xdb
+)
+
+(TClr.166
+)
+
+(TClr.167
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.168
+	Columns:	8
+	Rows:	8
+	Bits:	ffddff77 ffddff77 
+)
+
+(BShSym.169
+	Color:	170
+	Outline:	1
+	OutlineColor:	171
+	OutlineWidth:	0.10000000000000
+	BgColor:	172
+)
+
+(TClr.170
+	Red:	0xdfff
+	Green:	0xc36b
+	Blue:	0x8cdf
+)
+
+(TClr.171
+)
+
+(TClr.172
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.173
+	Color:	174
+	Outline:	1
+	OutlineColor:	175
+	OutlineWidth:	0.10000000000000
+	BgColor:	176
+	Style:	0x03
+	Stipple:	177
+)
+
+(TClr.174
+	Red:	0x8200
+	Green:	0x81
+	Blue:	0x81
+)
+
+(TClr.175
+)
+
+(TClr.176
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.177
+	Columns:	8
+	Rows:	8
+	Bits:	a3c78b11 b87c3a11 
+)
+
+(BShSym.178
+	Color:	179
+	Outline:	1
+	OutlineColor:	180
+	OutlineWidth:	0.10000000000000
+	BgColor:	181
+	Style:	0x03
+	Stipple:	182
+)
+
+(TClr.179
+	Red:	0x8200
+	Green:	0x81
+	Blue:	0x81
+)
+
+(TClr.180
+)
+
+(TClr.181
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.182
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.183
+	Color:	184
+	Outline:	1
+	OutlineColor:	185
+	OutlineWidth:	0.10000000000000
+	BgColor:	186
+	Style:	0x03
+	Stipple:	187
+)
+
+(TClr.184
+	Red:	0xdc00
+	Green:	0xdb
+	Blue:	0xdb
+)
+
+(TClr.185
+)
+
+(TClr.186
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.187
+	Columns:	8
+	Rows:	8
+	Bits:	00440011 00440011 
+)
+
+(BShSym.188
+	Color:	189
+	Outline:	1
+	OutlineColor:	190
+	OutlineWidth:	0.10000000000000
+	BgColor:	191
+)
+
+(TClr.189
+	Red:	0xffff
+)
+
+(TClr.190
+)
+
+(TClr.191
+	Red:	0xdc00
+	Green:	0xdb
+	Blue:	0xdb
+)
+
+(BShSym.192
+	Color:	193
+	Outline:	1
+	OutlineColor:	194
+	OutlineWidth:	0.10000000000000
+	BgColor:	195
+)
+
+(TClr.193
+	Red:	0xb9ff
+	Green:	0x94c1
+	Blue:	0x45bf
+)
+
+(TClr.194
+)
+
+(TClr.195
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.196
+	Color:	197
+	Outline:	1
+	OutlineColor:	198
+	OutlineWidth:	0.10000000000000
+	BgColor:	199
+)
+
+(TClr.197
+	Red:	0xfeff
+	Green:	0x7f7f
+	Blue:	0x7f7f
+)
+
+(TClr.198
+)
+
+(TClr.199
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.200
+	Color:	201
+	Outline:	1
+	OutlineColor:	202
+	OutlineWidth:	0.10000000000000
+	BgColor:	203
+)
+
+(TClr.201
+)
+
+(TClr.202
+)
+
+(TClr.203
+)
+
+(BShSym.204
+	Color:	205
+	Outline:	1
+	OutlineColor:	206
+	OutlineWidth:	0.10000000000000
+	BgColor:	207
+	Style:	0x03
+	Stipple:	208
+)
+
+(TClr.205
+	Red:	0xd9d
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.206
+)
+
+(TClr.207
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.208
+	Columns:	8
+	Rows:	8
+	Bits:	7cbbc4c7 c7bb4c7c 
+)
+
+(BShSym.209
+	Color:	210
+	Outline:	1
+	OutlineColor:	211
+	OutlineWidth:	0.10000000000000
+	BgColor:	212
+)
+
+(TClr.210
+	Red:	0x7521
+	Green:	0x6599
+	Blue:	0xfeff
+)
+
+(TClr.211
+)
+
+(TClr.212
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.213
+	Color:	214
+	Outline:	1
+	OutlineColor:	215
+	OutlineWidth:	0.10000000000000
+	BgColor:	216
+)
+
+(TClr.214
+	Red:	0x8700
+	Green:	0xcf00
+	Blue:	0xfe00
+)
+
+(TClr.215
+)
+
+(TClr.216
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.217
+	Color:	218
+	Outline:	1
+	OutlineColor:	219
+	OutlineWidth:	0.10000000000000
+	BgColor:	220
+)
+
+(TClr.218
+	Green:	0xa700
+	Blue:	0xc700
+)
+
+(TClr.219
+)
+
+(TClr.220
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.221
+	Color:	222
+	Outline:	1
+	OutlineColor:	223
+	OutlineWidth:	0.10000000000000
+	BgColor:	224
+)
+
+(TClr.222
+	Red:	0xc948
+	Green:	0xc33b
+	Blue:	0xff00
+)
+
+(TClr.223
+)
+
+(TClr.224
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.225
+	Color:	226
+	Outline:	1
+	OutlineColor:	227
+	OutlineWidth:	0.10000000000000
+	BgColor:	228
+)
+
+(TClr.226
+	Red:	0xd200
+	Green:	0x5800
+	Blue:	0xdc00
+)
+
+(TClr.227
+)
+
+(TClr.228
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.229
+	Color:	230
+	Outline:	1
+	OutlineColor:	231
+	OutlineWidth:	0.10000000000000
+	BgColor:	232
+	Style:	0x03
+	Stipple:	233
+)
+
+(TClr.230
+	Red:	0xd9d
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.231
+)
+
+(TClr.232
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.233
+	Columns:	8
+	Rows:	8
+	Bits:	00ff00ff 00ff00ff 
+)
+
+(BShSym.234
+	Color:	235
+	Outline:	1
+	OutlineColor:	236
+	OutlineWidth:	0.10000000000000
+	BgColor:	237
+	Style:	0x03
+	Stipple:	238
+)
+
+(TClr.235
+	Red:	0xd9d
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.236
+)
+
+(TClr.237
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.238
+	Columns:	8
+	Rows:	8
+	Bits:	a3c78b11 b87c3a11 
+)
+
+(BShSym.239
+	Color:	240
+	Outline:	1
+	OutlineColor:	241
+	OutlineWidth:	0.10000000000000
+	BgColor:	242
+	Style:	0x03
+	Stipple:	243
+)
+
+(TClr.240
+	Red:	0xd9d
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.241
+)
+
+(TClr.242
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.243
+	Columns:	8
+	Rows:	8
+	Bits:	88112244 88112244 
+)
+
+(BShSym.244
+	Color:	245
+	Outline:	1
+	OutlineColor:	246
+	OutlineWidth:	0.10000000000000
+	BgColor:	247
+	Style:	0x03
+	Stipple:	248
+)
+
+(TClr.245
+	Red:	0x9c67
+	Green:	0x9d6b
+	Blue:	0xdc00
+)
+
+(TClr.246
+)
+
+(TClr.247
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.248
+	Columns:	8
+	Rows:	8
+	Bits:	01020408 10204080 
+)
+
+(BShSym.249
+	Color:	250
+	Outline:	1
+	OutlineColor:	251
+	OutlineWidth:	0.10000000000000
+	BgColor:	252
+	Style:	0x03
+	Stipple:	253
+)
+
+(TClr.250
+	Red:	0xd9d
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.251
+)
+
+(TClr.252
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.253
+	Columns:	8
+	Rows:	8
+	Bits:	40000400 40000400 
+)
+
+(BShSym.254
+	Color:	255
+	Outline:	1
+	OutlineColor:	256
+	OutlineWidth:	0.10000000000000
+	BgColor:	257
+	Style:	0x03
+	Stipple:	258
+)
+
+(TClr.255
+	Red:	0xd9d
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.256
+)
+
+(TClr.257
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.258
+	Columns:	8
+	Rows:	8
+	Bits:	00000000 00040000 
+)
+
+(BShSym.259
+	Color:	260
+	Outline:	1
+	OutlineColor:	261
+	OutlineWidth:	0.10000000000000
+	BgColor:	262
+)
+
+(TClr.260
+	Red:	0x9c67
+	Green:	0x9d6b
+	Blue:	0xdc00
+)
+
+(TClr.261
+)
+
+(TClr.262
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.263
+	Color:	264
+	Outline:	1
+	OutlineColor:	265
+	OutlineWidth:	0.10000000000000
+	BgColor:	266
+)
+
+(TClr.264
+	Red:	0x2893
+	Green:	0x1f6d
+	Blue:	0x9500
+)
+
+(TClr.265
+)
+
+(TClr.266
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.267
+	Color:	268
+	Outline:	1
+	OutlineColor:	269
+	OutlineWidth:	0.10000000000000
+	BgColor:	270
+	Style:	0x03
+	Stipple:	271
+)
+
+(TClr.268
+	Red:	0xff00
+	Green:	0xad9f
+	Blue:	0xfe
+)
+
+(TClr.269
+)
+
+(TClr.270
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.271
+	Columns:	8
+	Rows:	8
+	Bits:	7cbbc4c7 c7bb4c7c 
+)
+
+(BShSym.272
+	Color:	273
+	Outline:	1
+	OutlineColor:	274
+	OutlineWidth:	0.10000000000000
+	BgColor:	275
+	Style:	0x03
+	Stipple:	276
+)
+
+(TClr.273
+	Red:	0xff00
+	Green:	0xad9f
+	Blue:	0xfe
+)
+
+(TClr.274
+)
+
+(TClr.275
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.276
+	Columns:	8
+	Rows:	8
+	Bits:	ffddff77 ffddff77 
+)
+
+(BShSym.277
+	Color:	278
+	Outline:	1
+	OutlineColor:	279
+	OutlineWidth:	0.10000000000000
+	BgColor:	280
+	Style:	0x03
+	Stipple:	281
+)
+
+(TClr.278
+	Red:	0xff00
+	Green:	0xad9f
+	Blue:	0xfe
+)
+
+(TClr.279
+)
+
+(TClr.280
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.281
+	Columns:	8
+	Rows:	8
+	Bits:	08182442 81601008 
+)
+
+(BShSym.282
+	Color:	283
+	Outline:	1
+	OutlineColor:	284
+	OutlineWidth:	0.10000000000000
+	BgColor:	285
+)
+
+(TClr.283
+	Red:	0xc9ff
+	Green:	0xae96
+	Blue:	0x6dad
+)
+
+(TClr.284
+)
+
+(TClr.285
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.286
+	Color:	287
+	Outline:	1
+	OutlineColor:	288
+	OutlineWidth:	0.10000000000000
+	BgColor:	289
+	Style:	0x03
+	Stipple:	290
+)
+
+(TClr.287
+	Red:	0xff00
+	Green:	0xad9f
+	Blue:	0xfe
+)
+
+(TClr.288
+)
+
+(TClr.289
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.290
+	Columns:	8
+	Rows:	8
+	Bits:	d8c60660 6c8d8118 
+)
+
+(BShSym.291
+	Color:	292
+	Outline:	1
+	OutlineColor:	293
+	OutlineWidth:	0.10000000000000
+	BgColor:	294
+	Style:	0x03
+	Stipple:	295
+)
+
+(TClr.292
+	Red:	0x9797
+	Green:	0x4747
+	Blue:	0x4949
+)
+
+(TClr.293
+)
+
+(TClr.294
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.295
+	Columns:	8
+	Rows:	8
+	Bits:	d8c60660 6c8d8118 
+)
+
+(BShSym.296
+	Color:	297
+	Outline:	1
+	OutlineColor:	298
+	OutlineWidth:	0.10000000000000
+	BgColor:	299
+	Style:	0x03
+	Stipple:	300
+)
+
+(TClr.297
+	Red:	0xff00
+	Green:	0xbf7b
+	Blue:	0xfe
+)
+
+(TClr.298
+)
+
+(TClr.299
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.300
+	Columns:	8
+	Rows:	8
+	Bits:	d8c60660 6c8d8118 
+)
+
+(BShSym.301
+	Color:	302
+	Outline:	1
+	OutlineColor:	303
+	OutlineWidth:	0.10000000000000
+	BgColor:	304
+)
+
+(TClr.302
+	Red:	0xfdff
+	Green:	0xdd95
+	Blue:	0x2ea1
+)
+
+(TClr.303
+)
+
+(TClr.304
+	Red:	0xff00
+	Green:	0xad9f
+	Blue:	0xfe
+)
+
+(BShSym.305
+	Color:	306
+	Outline:	1
+	OutlineColor:	307
+	OutlineWidth:	0.10000000000000
+	BgColor:	308
+	Style:	0x03
+	Stipple:	309
+)
+
+(TClr.306
+	Red:	0xff00
+	Green:	0xad9f
+	Blue:	0xfe
+)
+
+(TClr.307
+)
+
+(TClr.308
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.309
+	Columns:	8
+	Rows:	8
+	Bits:	a3c78b11 b87c3a11 
+)
+
+(BShSym.310
+	Color:	311
+	Outline:	1
+	OutlineColor:	312
+	OutlineWidth:	0.10000000000000
+	BgColor:	313
+	Style:	0x03
+	Stipple:	314
+)
+
+(TClr.311
+	Red:	0xfeff
+	Green:	0x5a48
+	Blue:	0xfe
+)
+
+(TClr.312
+)
+
+(TClr.313
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.314
+	Columns:	8
+	Rows:	8
+	Bits:	a3c78b11 b87c3a11 
+)
+
+(BShSym.315
+	Color:	316
+	Outline:	1
+	OutlineColor:	317
+	OutlineWidth:	0.10000000000000
+	BgColor:	318
+	Style:	0x03
+	Stipple:	319
+)
+
+(TClr.316
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(TClr.317
+)
+
+(TClr.318
+	Red:	0xff00
+	Green:	0xbf7b
+	Blue:	0xfe
+)
+
+(Stipple.319
+	Columns:	8
+	Rows:	8
+	Bits:	a3c78b11 b87c3a11 
+)
+
+(BShSym.320
+	Color:	321
+	Outline:	1
+	OutlineColor:	322
+	OutlineWidth:	0.10000000000000
+	BgColor:	323
+	Style:	0x03
+	Stipple:	324
+)
+
+(TClr.321
+	Red:	0xfe00
+	Green:	0xb600
+	Blue:	0x7600
+)
+
+(TClr.322
+)
+
+(TClr.323
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.324
+	Columns:	8
+	Rows:	8
+	Bits:	01020408 10204080 
+)
+
+(BShSym.325
+	Color:	326
+	Outline:	1
+	OutlineColor:	327
+	OutlineWidth:	0.10000000000000
+	BgColor:	328
+	Style:	0x03
+	Stipple:	329
+)
+
+(TClr.326
+	Red:	0xc000
+	Green:	0x9600
+	Blue:	0x7100
+)
+
+(TClr.327
+)
+
+(TClr.328
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.329
+	Columns:	8
+	Rows:	8
+	Bits:	88112244 88112244 
+)
+
+(BShSym.330
+	Color:	331
+	Outline:	1
+	OutlineColor:	332
+	OutlineWidth:	0.10000000000000
+	BgColor:	333
+	Style:	0x03
+	Stipple:	334
+)
+
+(TClr.331
+	Red:	0x9797
+	Green:	0x4747
+	Blue:	0x4949
+)
+
+(TClr.332
+)
+
+(TClr.333
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.334
+	Columns:	8
+	Rows:	8
+	Bits:	3366cc99 3366cc99 
+)
+
+(BShSym.335
+	Color:	336
+	Outline:	1
+	OutlineColor:	337
+	OutlineWidth:	0.10000000000000
+	BgColor:	338
+	Style:	0x03
+	Stipple:	339
+)
+
+(TClr.336
+	Red:	0xff00
+	Green:	0xad9f
+	Blue:	0xfe
+)
+
+(TClr.337
+)
+
+(TClr.338
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.339
+	Columns:	8
+	Rows:	8
+	Bits:	40000400 40000400 
+)
+
+(BShSym.340
+	Color:	341
+	Outline:	1
+	OutlineColor:	342
+	OutlineWidth:	0.10000000000000
+	BgColor:	343
+	Style:	0x03
+	Stipple:	344
+)
+
+(TClr.341
+	Red:	0xfeff
+	Green:	0x7218
+	Blue:	0xfe
+)
+
+(TClr.342
+)
+
+(TClr.343
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.344
+	Columns:	8
+	Rows:	8
+	Bits:	00440011 00440011 
+)
+
+(BShSym.345
+	Color:	346
+	Outline:	1
+	OutlineColor:	347
+	OutlineWidth:	0.10000000000000
+	BgColor:	348
+	Style:	0x03
+	Stipple:	349
+)
+
+(TClr.346
+	Red:	0xfeff
+	Green:	0x89e8
+	Blue:	0xfe
+)
+
+(TClr.347
+)
+
+(TClr.348
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.349
+	Columns:	8
+	Rows:	8
+	Bits:	00440011 00440011 
+)
+
+(BShSym.350
+	Color:	351
+	Outline:	1
+	OutlineColor:	352
+	OutlineWidth:	0.10000000000000
+	BgColor:	353
+)
+
+(TClr.351
+	Red:	0xfeff
+	Green:	0x309d
+	Blue:	0xfe
+)
+
+(TClr.352
+)
+
+(TClr.353
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.354
+	Color:	355
+	Outline:	1
+	OutlineColor:	356
+	OutlineWidth:	0.10000000000000
+	BgColor:	357
+)
+
+(TClr.355
+	Red:	0xff00
+	Green:	0xbf7b
+	Blue:	0xfe
+)
+
+(TClr.356
+)
+
+(TClr.357
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.358
+	Color:	359
+	Outline:	1
+	OutlineColor:	360
+	OutlineWidth:	0.10000000000000
+	BgColor:	361
+)
+
+(TClr.359
+	Red:	0xeb00
+	Green:	0x3367
+	Blue:	0xa35b
+)
+
+(TClr.360
+)
+
+(TClr.361
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.362
+	Color:	363
+	Outline:	1
+	OutlineColor:	364
+	OutlineWidth:	0.10000000000000
+	BgColor:	365
+	Style:	0x03
+	Stipple:	366
+)
+
+(TClr.363
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.364
+)
+
+(TClr.365
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.366
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.367
+	Color:	368
+	Outline:	1
+	OutlineColor:	369
+	OutlineWidth:	0.10000000000000
+	BgColor:	370
+	Style:	0x03
+	Stipple:	371
+)
+
+(TClr.368
+	Red:	0xc3ff
+	Green:	0xb08d
+	Blue:	0x644b
+)
+
+(TClr.369
+)
+
+(TClr.370
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.371
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.372
+	Color:	373
+	Outline:	1
+	OutlineColor:	374
+	OutlineWidth:	0.10000000000000
+	BgColor:	375
+	Style:	0x03
+	Stipple:	376
+)
+
+(TClr.373
+	Red:	0xa100
+	Green:	0x6686
+	Blue:	0x32f0
+)
+
+(TClr.374
+)
+
+(TClr.375
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.376
+	Columns:	8
+	Rows:	8
+	Bits:	08182442 81601008 
+)
+
+(BShSym.377
+	Color:	378
+	Outline:	1
+	OutlineColor:	379
+	OutlineWidth:	0.10000000000000
+	BgColor:	380
+	Style:	0x03
+	Stipple:	381
+)
+
+(TClr.378
+	Red:	0xbb00
+	Green:	0xa69d
+	Blue:	0xba
+)
+
+(TClr.379
+)
+
+(TClr.380
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.381
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.382
+	Color:	383
+	Outline:	1
+	OutlineColor:	384
+	OutlineWidth:	0.10000000000000
+	BgColor:	385
+	Style:	0x03
+	Stipple:	386
+)
+
+(TClr.383
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(TClr.384
+)
+
+(TClr.385
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.386
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.387
+	Color:	388
+	Outline:	1
+	OutlineColor:	389
+	OutlineWidth:	0.10000000000000
+	BgColor:	390
+	Style:	0x03
+	Stipple:	391
+)
+
+(TClr.388
+	Red:	0x6400
+	Green:	0x63
+	Blue:	0x6025
+)
+
+(TClr.389
+)
+
+(TClr.390
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.391
+	Columns:	8
+	Rows:	8
+	Bits:	44880000 22110000 
+)
+
+(BShSym.392
+	Color:	393
+	Outline:	1
+	OutlineColor:	394
+	OutlineWidth:	0.10000000000000
+	BgColor:	395
+	Style:	0x03
+	Stipple:	396
+)
+
+(TClr.393
+	Red:	0x77d5
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.394
+)
+
+(TClr.395
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.396
+	Columns:	8
+	Rows:	8
+	Bits:	00205000 00020500 
+)
+
+(BShSym.397
+	Color:	398
+	Outline:	1
+	OutlineColor:	399
+	OutlineWidth:	0.10000000000000
+	BgColor:	400
+	Style:	0x03
+	Stipple:	401
+)
+
+(TClr.398
+	Red:	0xd9d
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.399
+)
+
+(TClr.400
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.401
+	Columns:	8
+	Rows:	8
+	Bits:	55555555 55555555 
+)
+
+(BShSym.402
+	Color:	403
+	Outline:	1
+	OutlineColor:	404
+	OutlineWidth:	0.10000000000000
+	BgColor:	405
+	Style:	0x03
+	Stipple:	406
+)
+
+(TClr.403
+	Red:	0xd9d
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.404
+)
+
+(TClr.405
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.406
+	Columns:	8
+	Rows:	8
+	Bits:	11111111 11111111 
+)
+
+(BShSym.407
+	Color:	408
+	Outline:	1
+	OutlineColor:	409
+	OutlineWidth:	0.10000000000000
+	BgColor:	410
+)
+
+(TClr.408
+	Red:	0x7401
+	Green:	0x6f93
+	Blue:	0xc0ff
+)
+
+(TClr.409
+)
+
+(TClr.410
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.411
+	Color:	412
+	Outline:	1
+	OutlineColor:	413
+	OutlineWidth:	0.10000000000000
+	BgColor:	414
+	Style:	0x03
+	Stipple:	415
+)
+
+(TClr.412
+	Red:	0xd9d
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.413
+)
+
+(TClr.414
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.415
+	Columns:	8
+	Rows:	8
+	Bits:	ffddff77 ffddff77 
+)
+
+(BShSym.416
+	Color:	417
+	Outline:	1
+	OutlineColor:	418
+	OutlineWidth:	0.10000000000000
+	BgColor:	419
+)
+
+(TClr.417
+	Red:	0xcacc
+	Green:	0xdb
+	Blue:	0xdc00
+)
+
+(TClr.418
+)
+
+(TClr.419
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.420
+	Color:	421
+	Outline:	1
+	OutlineColor:	422
+	OutlineWidth:	0.10000000000000
+	BgColor:	423
+	Style:	0x03
+	Stipple:	424
+)
+
+(TClr.421
+	Red:	0xae6d
+	Green:	0xa559
+	Blue:	0xff00
+)
+
+(TClr.422
+)
+
+(TClr.423
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.424
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.425
+	Color:	426
+	Outline:	1
+	OutlineColor:	427
+	OutlineWidth:	0.10000000000000
+	BgColor:	428
+	Style:	0x03
+	Stipple:	429
+)
+
+(TClr.426
+	Red:	0x8600
+	Green:	0xa900
+	Blue:	0xce00
+)
+
+(TClr.427
+)
+
+(TClr.428
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.429
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.430
+	Color:	431
+	Outline:	1
+	OutlineColor:	432
+	OutlineWidth:	0.10000000000000
+	BgColor:	433
+	Style:	0x03
+	Stipple:	434
+)
+
+(TClr.431
+	Red:	0xb300
+	Green:	0x7b00
+	Blue:	0x9d00
+)
+
+(TClr.432
+)
+
+(TClr.433
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.434
+	Columns:	8
+	Rows:	8
+	Bits:	08182442 81601008 
+)
+
+(BShSym.435
+	Color:	436
+	Outline:	1
+	OutlineColor:	437
+	OutlineWidth:	0.10000000000000
+	BgColor:	438
+	Style:	0x03
+	Stipple:	439
+)
+
+(TClr.436
+	Red:	0x9f00
+	Green:	0xd800
+	Blue:	0xb300
+)
+
+(TClr.437
+)
+
+(TClr.438
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.439
+	Columns:	8
+	Rows:	8
+	Bits:	d8c60660 6c8d8118 
+)
+
+(BShSym.440
+	Color:	441
+	Outline:	1
+	OutlineColor:	442
+	OutlineWidth:	0.10000000000000
+	BgColor:	443
+	Style:	0x03
+	Stipple:	444
+)
+
+(TClr.441
+	Red:	0xfbd
+	Green:	0x7cab
+	Blue:	0x8200
+)
+
+(TClr.442
+)
+
+(TClr.443
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.444
+	Columns:	8
+	Rows:	8
+	Bits:	d8c60660 6c8d8118 
+)
+
+(BShSym.445
+	Color:	446
+	Outline:	1
+	OutlineColor:	447
+	OutlineWidth:	0.10000000000000
+	BgColor:	448
+)
+
+(TClr.446
+	Red:	0xfe
+	Green:	0x820c
+	Blue:	0xff00
+)
+
+(TClr.447
+)
+
+(TClr.448
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.449
+	Color:	450
+	Outline:	1
+	OutlineColor:	451
+	OutlineWidth:	0.10000000000000
+	BgColor:	452
+)
+
+(TClr.450
+	Red:	0x2893
+	Green:	0x1f6d
+	Blue:	0x9500
+)
+
+(TClr.451
+)
+
+(TClr.452
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.453
+	Color:	454
+	Outline:	1
+	OutlineColor:	455
+	OutlineWidth:	0.10000000000000
+	BgColor:	456
+	Style:	0x03
+	Stipple:	457
+)
+
+(TClr.454
+	Green:	0xa700
+	Blue:	0xc700
+)
+
+(TClr.455
+)
+
+(TClr.456
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.457
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.458
+	Color:	459
+	Outline:	1
+	OutlineColor:	460
+	OutlineWidth:	0.10000000000000
+	BgColor:	461
+	Style:	0x03
+	Stipple:	462
+)
+
+(TClr.459
+	Red:	0xb600
+	Green:	0xa600
+	Blue:	0xd500
+)
+
+(TClr.460
+)
+
+(TClr.461
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.462
+	Columns:	8
+	Rows:	8
+	Bits:	88112244 88112244 
+)
+
+(BShSym.463
+	Color:	464
+	Outline:	1
+	OutlineColor:	465
+	OutlineWidth:	0.10000000000000
+	BgColor:	466
+	Style:	0x03
+	Stipple:	467
+)
+
+(TClr.464
+	Red:	0xfe
+	Green:	0xdb57
+	Blue:	0xff00
+)
+
+(TClr.465
+)
+
+(TClr.466
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.467
+	Columns:	8
+	Rows:	8
+	Bits:	3366cc99 3366cc99 
+)
+
+(BShSym.468
+	Color:	469
+	Outline:	1
+	OutlineColor:	470
+	OutlineWidth:	0.10000000000000
+	BgColor:	471
+)
+
+(TClr.469
+	Red:	0x5a00
+	Green:	0x7300
+	Blue:	0x8300
+)
+
+(TClr.470
+)
+
+(TClr.471
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.472
+	Color:	473
+	Outline:	1
+	OutlineColor:	474
+	OutlineWidth:	0.10000000000000
+	BgColor:	475
+	Style:	0x03
+	Stipple:	476
+)
+
+(TClr.473
+	Red:	0x77d5
+	Green:	0x81
+	Blue:	0x8200
+)
+
+(TClr.474
+)
+
+(TClr.475
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.476
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.477
+	Color:	478
+	Outline:	1
+	OutlineColor:	479
+	OutlineWidth:	0.10000000000000
+	BgColor:	480
+	Style:	0x03
+	Stipple:	481
+)
+
+(TClr.478
+	Red:	0x7b83
+	Green:	0xfeff
+	Blue:	0xcdaa
+)
+
+(TClr.479
+)
+
+(TClr.480
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.481
+	Columns:	8
+	Rows:	8
+	Bits:	00440011 00440011 
+)
+
+(BShSym.482
+	Color:	483
+	Outline:	1
+	OutlineColor:	484
+	OutlineWidth:	0.10000000000000
+	BgColor:	485
+	Style:	0x03
+	Stipple:	486
+)
+
+(TClr.483
+	Red:	0xb3ff
+	Green:	0xb06f
+	Blue:	0x7b0b
+)
+
+(TClr.484
+)
+
+(TClr.485
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.486
+	Columns:	8
+	Rows:	8
+	Bits:	00440011 00440011 
+)
+
+(BShSym.487
+	Color:	488
+	Outline:	1
+	OutlineColor:	489
+	OutlineWidth:	0.10000000000000
+	BgColor:	490
+	Style:	0x03
+	Stipple:	491
+)
+
+(TClr.488
+	Red:	0x8200
+	Green:	0x81
+	Blue:	0x81
+)
+
+(TClr.489
+)
+
+(TClr.490
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.491
+	Columns:	8
+	Rows:	8
+	Bits:	44880000 22110000 
+)
+
+(BShSym.492
+	Color:	493
+	Outline:	1
+	OutlineColor:	494
+	OutlineWidth:	0.10000000000000
+	BgColor:	495
+	Style:	0x03
+	Stipple:	496
+)
+
+(TClr.493
+	Red:	0x6400
+	Green:	0x63
+	Blue:	0x63
+)
+
+(TClr.494
+)
+
+(TClr.495
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.496
+	Columns:	8
+	Rows:	8
+	Bits:	00205000 00020500 
+)
+
+(BShSym.497
+	Color:	498
+	Outline:	1
+	OutlineColor:	499
+	OutlineWidth:	0.10000000000000
+	BgColor:	500
+	Style:	0x03
+	Stipple:	501
+)
+
+(TClr.498
+	Red:	0xa100
+	Green:	0x6686
+	Blue:	0x32f0
+)
+
+(TClr.499
+)
+
+(TClr.500
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.501
+	Columns:	8
+	Rows:	8
+	Bits:	55555555 55555555 
+)
+
+(BShSym.502
+	Color:	503
+	Outline:	1
+	OutlineColor:	504
+	OutlineWidth:	0.10000000000000
+	BgColor:	505
+	Style:	0x03
+	Stipple:	506
+)
+
+(TClr.503
+	Red:	0x8200
+	Green:	0x81
+	Blue:	0x81
+)
+
+(TClr.504
+)
+
+(TClr.505
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.506
+	Columns:	8
+	Rows:	8
+	Bits:	44444482 01102844 
+)
+
+(BShSym.507
+	Color:	508
+	Outline:	1
+	OutlineColor:	509
+	OutlineWidth:	0.10000000000000
+	BgColor:	510
+)
+
+(TClr.508
+	Red:	0xfeff
+	Green:	0x7218
+	Blue:	0xfe
+)
+
+(TClr.509
+)
+
+(TClr.510
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.511
+	Color:	512
+	Outline:	1
+	OutlineColor:	513
+	OutlineWidth:	0.10000000000000
+	BgColor:	514
+	Style:	0x03
+	Stipple:	515
+)
+
+(TClr.512
+	Red:	0xdc00
+	Green:	0xdb
+	Blue:	0xdb
+)
+
+(TClr.513
+)
+
+(TClr.514
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.515
+	Columns:	8
+	Rows:	8
+	Bits:	11111111 11111111 
+)
+
+(BShSym.516
+	Color:	517
+	Outline:	1
+	OutlineColor:	518
+	OutlineWidth:	0.10000000000000
+	BgColor:	519
+	Style:	0x03
+	Stipple:	520
+)
+
+(TClr.517
+	Red:	0x14d3
+	Green:	0xa4f2
+	Blue:	0xac00
+)
+
+(TClr.518
+)
+
+(TClr.519
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.520
+	Columns:	8
+	Rows:	8
+	Bits:	7cbbc4c7 c7bb4c7c 
+)
+
+(BShSym.521
+	Color:	522
+	Outline:	1
+	OutlineColor:	523
+	OutlineWidth:	0.10000000000000
+	BgColor:	524
+)
+
+(TClr.522
+	Red:	0xae6d
+	Green:	0xa559
+	Blue:	0xff00
+)
+
+(TClr.523
+)
+
+(TClr.524
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.525
+	Color:	526
+	Outline:	1
+	OutlineColor:	527
+	OutlineWidth:	0.10000000000000
+	BgColor:	528
+)
+
+(TClr.526
+	Red:	0x81
+	Green:	0x4b67
+	Blue:	0x81ff
+)
+
+(TClr.527
+)
+
+(TClr.528
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.529
+	Color:	530
+	Outline:	1
+	OutlineColor:	531
+	OutlineWidth:	0.10000000000000
+	BgColor:	532
+)
+
+(TClr.530
+	Red:	0x14d3
+	Green:	0xa4f2
+	Blue:	0xac00
+)
+
+(TClr.531
+)
+
+(TClr.532
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.533
+	Color:	534
+	Outline:	1
+	OutlineColor:	535
+	OutlineWidth:	0.10000000000000
+	BgColor:	536
+)
+
+(TClr.534
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.535
+)
+
+(TClr.536
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.537
+	Color:	538
+	Outline:	1
+	OutlineColor:	539
+	OutlineWidth:	0.10000000000000
+	BgColor:	540
+	Style:	0x03
+	Stipple:	541
+)
+
+(TClr.538
+	Red:	0xfbd
+	Green:	0x7cab
+	Blue:	0x8200
+)
+
+(TClr.539
+)
+
+(TClr.540
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.541
+	Columns:	8
+	Rows:	8
+	Bits:	00ff00ff 00ff00ff 
+)
+
+(BShSym.542
+	Color:	543
+	Outline:	1
+	OutlineColor:	544
+	OutlineWidth:	0.10000000000000
+	BgColor:	545
+	Style:	0x03
+	Stipple:	546
+)
+
+(TClr.543
+	Red:	0x170b
+	Green:	0xdb
+	Blue:	0xdc00
+)
+
+(TClr.544
+)
+
+(TClr.545
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(Stipple.546
+	Columns:	8
+	Rows:	8
+	Bits:	02aa5020 20aa0502 
+)
+
+(BShSym.547
+	Color:	548
+	Outline:	1
+	OutlineColor:	549
+	OutlineWidth:	0.10000000000000
+	BgColor:	550
+	Style:	0x03
+	Stipple:	551
+)
+
+(TClr.548
+	Red:	0x14d3
+	Green:	0xa4f2
+	Blue:	0xac00
+)
+
+(TClr.549
+)
+
+(TClr.550
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.551
+	Columns:	8
+	Rows:	8
+	Bits:	a3c78b11 b87c3a11 
+)
+
+(BShSym.552
+	Color:	553
+	Outline:	1
+	OutlineColor:	554
+	OutlineWidth:	0.10000000000000
+	BgColor:	555
+	Style:	0x03
+	Stipple:	556
+)
+
+(TClr.553
+	Red:	0x14d3
+	Green:	0xa4f2
+	Blue:	0xac00
+)
+
+(TClr.554
+)
+
+(TClr.555
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.556
+	Columns:	8
+	Rows:	8
+	Bits:	40000400 40000400 
+)
+
+(BShSym.557
+	Color:	558
+	Outline:	1
+	OutlineColor:	559
+	OutlineWidth:	0.10000000000000
+	BgColor:	560
+	Style:	0x03
+	Stipple:	561
+)
+
+(TClr.558
+	Red:	0xdb
+	Green:	0xd1c7
+	Blue:	0xdc00
+)
+
+(TClr.559
+)
+
+(TClr.560
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.561
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.562
+	Color:	563
+	Outline:	1
+	OutlineColor:	564
+	OutlineWidth:	0.10000000000000
+	BgColor:	565
+)
+
+(TClr.563
+	Red:	0xc948
+	Green:	0xc33b
+	Blue:	0xff00
+)
+
+(TClr.564
+)
+
+(TClr.565
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.566
+	Color:	567
+	Outline:	1
+	OutlineColor:	568
+	OutlineWidth:	0.10000000000000
+	BgColor:	569
+)
+
+(TClr.567
+	Red:	0x8700
+	Green:	0xcf00
+	Blue:	0xfe00
+)
+
+(TClr.568
+)
+
+(TClr.569
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.570
+	Color:	571
+	Outline:	1
+	OutlineColor:	572
+	OutlineWidth:	0.10000000000000
+	BgColor:	573
+)
+
+(TClr.571
+	Name:	"Transparent"
+)
+
+(TClr.572
+	Name:	"Transparent"
+)
+
+(TClr.573
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.574
+	IsText:	1
+	Label:	"Agulhas Boulder Shore"
+	MinStr:	"Agulhas Boulder Shore"
+	MaxStr:	"Agulhas Boulder Shore"
+	Precision:	-3
+)
+
+(LClass.575
+	IsText:	1
+	Label:	"Agulhas Canyon"
+	MinStr:	"Agulhas Canyon"
+	MaxStr:	"Agulhas Canyon"
+	Precision:	-3
+)
+
+(LClass.576
+	IsText:	1
+	Label:	"Agulhas Dissipative Sandy Coast"
+	MinStr:	"Agulhas Dissipative Sandy Coast"
+	MaxStr:	"Agulhas Dissipative Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.577
+	IsText:	1
+	Label:	"Agulhas Dissipative-Intermediate Sandy Coast"
+	MinStr:	"Agulhas Dissipative-Intermediate Sandy Coast"
+	MaxStr:	"Agulhas Dissipative-Intermediate Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.578
+	IsText:	1
+	Label:	"Agulhas Estuarine Shore"
+	MinStr:	"Agulhas Estuarine Shore"
+	MaxStr:	"Agulhas Estuarine Shore"
+	Precision:	-3
+)
+
+(LClass.579
+	IsText:	1
+	Label:	"Agulhas Exposed Rocky Coast"
+	MinStr:	"Agulhas Exposed Rocky Coast"
+	MaxStr:	"Agulhas Exposed Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.580
+	IsText:	1
+	Label:	"Agulhas Gravel Inner Shelf"
+	MinStr:	"Agulhas Gravel Inner Shelf"
+	MaxStr:	"Agulhas Gravel Inner Shelf"
+	Precision:	-3
+)
+
+(LClass.581
+	IsText:	1
+	Label:	"Agulhas Gravel Outer Shelf"
+	MinStr:	"Agulhas Gravel Outer Shelf"
+	MaxStr:	"Agulhas Gravel Outer Shelf"
+	Precision:	-3
+)
+
+(LClass.582
+	IsText:	1
+	Label:	"Agulhas Gravel Shelf Edge"
+	MinStr:	"Agulhas Gravel Shelf Edge"
+	MaxStr:	"Agulhas Gravel Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.583
+	IsText:	1
+	Label:	"Agulhas Hard Inner Shelf"
+	MinStr:	"Agulhas Hard Inner Shelf"
+	MaxStr:	"Agulhas Hard Inner Shelf"
+	Precision:	-3
+)
+
+(LClass.584
+	IsText:	1
+	Label:	"Agulhas Hard Outer Shelf"
+	MinStr:	"Agulhas Hard Outer Shelf"
+	MaxStr:	"Agulhas Hard Outer Shelf"
+	Precision:	-3
+)
+
+(LClass.585
+	IsText:	1
+	Label:	"Agulhas Hard Shelf Edge"
+	MinStr:	"Agulhas Hard Shelf Edge"
+	MaxStr:	"Agulhas Hard Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.586
+	IsText:	1
+	Label:	"Agulhas Inner Shelf Reef"
+	MinStr:	"Agulhas Inner Shelf Reef"
+	MaxStr:	"Agulhas Inner Shelf Reef"
+	Precision:	-3
+)
+
+(LClass.587
+	IsText:	1
+	Label:	"Agulhas Inshore Gravel"
+	MinStr:	"Agulhas Inshore Gravel"
+	MaxStr:	"Agulhas Inshore Gravel"
+	Precision:	-3
+)
+
+(LClass.588
+	IsText:	1
+	Label:	"Agulhas Inshore Hard Grounds"
+	MinStr:	"Agulhas Inshore Hard Grounds"
+	MaxStr:	"Agulhas Inshore Hard Grounds"
+	Precision:	-3
+)
+
+(LClass.589
+	IsText:	1
+	Label:	"Agulhas Inshore Reef"
+	MinStr:	"Agulhas Inshore Reef"
+	MaxStr:	"Agulhas Inshore Reef"
+	Precision:	-3
+)
+
+(LClass.590
+	IsText:	1
+	Label:	"Agulhas Intermediate Sandy Coast"
+	MinStr:	"Agulhas Intermediate Sandy Coast"
+	MaxStr:	"Agulhas Intermediate Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.591
+	IsText:	1
+	Label:	"Agulhas Island"
+	MinStr:	"Agulhas Island"
+	MaxStr:	"Agulhas Island"
+	Precision:	-3
+)
+
+(LClass.592
+	IsText:	1
+	Label:	"Agulhas Mixed Sediment Inner Shelf"
+	MinStr:	"Agulhas Mixed Sediment Inner Shelf"
+	MaxStr:	"Agulhas Mixed Sediment Inner Shelf"
+	Precision:	-3
+)
+
+(LClass.593
+	IsText:	1
+	Label:	"Agulhas Mixed Sediment Outer Shelf"
+	MinStr:	"Agulhas Mixed Sediment Outer Shelf"
+	MaxStr:	"Agulhas Mixed Sediment Outer Shelf"
+	Precision:	-3
+)
+
+(LClass.594
+	IsText:	1
+	Label:	"Agulhas Mixed Shore"
+	MinStr:	"Agulhas Mixed Shore"
+	MaxStr:	"Agulhas Mixed Shore"
+	Precision:	-3
+)
+
+(LClass.595
+	IsText:	1
+	Label:	"Agulhas Muddy Inner Shelf"
+	MinStr:	"Agulhas Muddy Inner Shelf"
+	MaxStr:	"Agulhas Muddy Inner Shelf"
+	Precision:	-3
+)
+
+(LClass.596
+	IsText:	1
+	Label:	"Agulhas Muddy Outer Shelf"
+	MinStr:	"Agulhas Muddy Outer Shelf"
+	MaxStr:	"Agulhas Muddy Outer Shelf"
+	Precision:	-3
+)
+
+(LClass.597
+	IsText:	1
+	Label:	"Agulhas Muddy Shelf Edge"
+	MinStr:	"Agulhas Muddy Shelf Edge"
+	MaxStr:	"Agulhas Muddy Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.598
+	IsText:	1
+	Label:	"Agulhas Outer Shelf Reef"
+	MinStr:	"Agulhas Outer Shelf Reef"
+	MaxStr:	"Agulhas Outer Shelf Reef"
+	Precision:	-3
+)
+
+(LClass.599
+	IsText:	1
+	Label:	"Agulhas Reflective Sandy Coast"
+	MinStr:	"Agulhas Reflective Sandy Coast"
+	MaxStr:	"Agulhas Reflective Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.600
+	IsText:	1
+	Label:	"Agulhas Sandy Inner Shelf"
+	MinStr:	"Agulhas Sandy Inner Shelf"
+	MaxStr:	"Agulhas Sandy Inner Shelf"
+	Precision:	-3
+)
+
+(LClass.601
+	IsText:	1
+	Label:	"Agulhas Sandy Inshore"
+	MinStr:	"Agulhas Sandy Inshore"
+	MaxStr:	"Agulhas Sandy Inshore"
+	Precision:	-3
+)
+
+(LClass.602
+	IsText:	1
+	Label:	"Agulhas Sandy Outer Shelf"
+	MinStr:	"Agulhas Sandy Outer Shelf"
+	MaxStr:	"Agulhas Sandy Outer Shelf"
+	Precision:	-3
+)
+
+(LClass.603
+	IsText:	1
+	Label:	"Agulhas Sandy Shelf Edge"
+	MinStr:	"Agulhas Sandy Shelf Edge"
+	MaxStr:	"Agulhas Sandy Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.604
+	IsText:	1
+	Label:	"Agulhas Shelf Edge Reef"
+	MinStr:	"Agulhas Shelf Edge Reef"
+	MaxStr:	"Agulhas Shelf Edge Reef"
+	Precision:	-3
+)
+
+(LClass.605
+	IsText:	1
+	Label:	"Agulhas Sheltered Rocky Coast"
+	MinStr:	"Agulhas Sheltered Rocky Coast"
+	MaxStr:	"Agulhas Sheltered Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.606
+	IsText:	1
+	Label:	"Agulhas Very Exposed Rocky Coast"
+	MinStr:	"Agulhas Very Exposed Rocky Coast"
+	MaxStr:	"Agulhas Very Exposed Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.607
+	IsText:	1
+	Label:	"Delagoa  Sandy Shelf Edge"
+	MinStr:	"Delagoa  Sandy Shelf Edge"
+	MaxStr:	"Delagoa  Sandy Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.608
+	IsText:	1
+	Label:	"Delagoa Canyon"
+	MinStr:	"Delagoa Canyon"
+	MaxStr:	"Delagoa Canyon"
+	Precision:	-3
+)
+
+(LClass.609
+	IsText:	1
+	Label:	"Delagoa Inshore Reef"
+	MinStr:	"Delagoa Inshore Reef"
+	MaxStr:	"Delagoa Inshore Reef"
+	Precision:	-3
+)
+
+(LClass.610
+	IsText:	1
+	Label:	"Delagoa Mixed Shore"
+	MinStr:	"Delagoa Mixed Shore"
+	MaxStr:	"Delagoa Mixed Shore"
+	Precision:	-3
+)
+
+(LClass.611
+	IsText:	1
+	Label:	"Delagoa Sandy Inshore"
+	MinStr:	"Delagoa Sandy Inshore"
+	MaxStr:	"Delagoa Sandy Inshore"
+	Precision:	-3
+)
+
+(LClass.612
+	IsText:	1
+	Label:	"Delagoa Sandy Shelf"
+	MinStr:	"Delagoa Sandy Shelf"
+	MaxStr:	"Delagoa Sandy Shelf"
+	Precision:	-3
+)
+
+(LClass.613
+	IsText:	1
+	Label:	"Delagoa Shelf Edge Reef"
+	MinStr:	"Delagoa Shelf Edge Reef"
+	MaxStr:	"Delagoa Shelf Edge Reef"
+	Precision:	-3
+)
+
+(LClass.614
+	IsText:	1
+	Label:	"Delagoa Shelf Reef"
+	MinStr:	"Delagoa Shelf Reef"
+	MaxStr:	"Delagoa Shelf Reef"
+	Precision:	-3
+)
+
+(LClass.615
+	IsText:	1
+	Label:	"Delagoa Very Exposed Rocky Coast"
+	MinStr:	"Delagoa Very Exposed Rocky Coast"
+	MaxStr:	"Delagoa Very Exposed Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.616
+	IsText:	1
+	Label:	"Harbour"
+	MinStr:	"Harbour"
+	MaxStr:	"Harbour"
+	Precision:	-3
+)
+
+(LClass.617
+	IsText:	1
+	Label:	"Namaqua Boulder Shore"
+	MinStr:	"Namaqua Boulder Shore"
+	MaxStr:	"Namaqua Boulder Shore"
+	Precision:	-3
+)
+
+(LClass.618
+	IsText:	1
+	Label:	"Namaqua Exposed Rocky Coast"
+	MinStr:	"Namaqua Exposed Rocky Coast"
+	MaxStr:	"Namaqua Exposed Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.619
+	IsText:	1
+	Label:	"Namaqua Hard Inner Shelf"
+	MinStr:	"Namaqua Hard Inner Shelf"
+	MaxStr:	"Namaqua Hard Inner Shelf"
+	Precision:	-3
+)
+
+(LClass.620
+	IsText:	1
+	Label:	"Namaqua Inner Shelf Reef"
+	MinStr:	"Namaqua Inner Shelf Reef"
+	MaxStr:	"Namaqua Inner Shelf Reef"
+	Precision:	-3
+)
+
+(LClass.621
+	IsText:	1
+	Label:	"Namaqua Inshore Hard Grounds"
+	MinStr:	"Namaqua Inshore Hard Grounds"
+	MaxStr:	"Namaqua Inshore Hard Grounds"
+	Precision:	-3
+)
+
+(LClass.622
+	IsText:	1
+	Label:	"Namaqua Inshore Reef"
+	MinStr:	"Namaqua Inshore Reef"
+	MaxStr:	"Namaqua Inshore Reef"
+	Precision:	-3
+)
+
+(LClass.623
+	IsText:	1
+	Label:	"Namaqua Island"
+	MinStr:	"Namaqua Island"
+	MaxStr:	"Namaqua Island"
+	Precision:	-3
+)
+
+(LClass.624
+	IsText:	1
+	Label:	"Namaqua Mixed Shore"
+	MinStr:	"Namaqua Mixed Shore"
+	MaxStr:	"Namaqua Mixed Shore"
+	Precision:	-3
+)
+
+(LClass.625
+	IsText:	1
+	Label:	"Namaqua Muddy Inner Shelf"
+	MinStr:	"Namaqua Muddy Inner Shelf"
+	MaxStr:	"Namaqua Muddy Inner Shelf"
+	Precision:	-3
+)
+
+(LClass.626
+	IsText:	1
+	Label:	"Namaqua Muddy Inshore"
+	MinStr:	"Namaqua Muddy Inshore"
+	MaxStr:	"Namaqua Muddy Inshore"
+	Precision:	-3
+)
+
+(LClass.627
+	IsText:	1
+	Label:	"Namaqua Sandy Inner Shelf"
+	MinStr:	"Namaqua Sandy Inner Shelf"
+	MaxStr:	"Namaqua Sandy Inner Shelf"
+	Precision:	-3
+)
+
+(LClass.628
+	IsText:	1
+	Label:	"Namaqua Sandy Inshore"
+	MinStr:	"Namaqua Sandy Inshore"
+	MaxStr:	"Namaqua Sandy Inshore"
+	Precision:	-3
+)
+
+(LClass.629
+	IsText:	1
+	Label:	"Namaqua Sheltered Rocky Coast"
+	MinStr:	"Namaqua Sheltered Rocky Coast"
+	MaxStr:	"Namaqua Sheltered Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.630
+	IsText:	1
+	Label:	"Namaqua Very Exposed Rocky Coast"
+	MinStr:	"Namaqua Very Exposed Rocky Coast"
+	MaxStr:	"Namaqua Very Exposed Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.631
+	IsText:	1
+	Label:	"Natal Boulder Shore"
+	MinStr:	"Natal Boulder Shore"
+	MaxStr:	"Natal Boulder Shore"
+	Precision:	-3
+)
+
+(LClass.632
+	IsText:	1
+	Label:	"Natal Canyon"
+	MinStr:	"Natal Canyon"
+	MaxStr:	"Natal Canyon"
+	Precision:	-3
+)
+
+(LClass.633
+	IsText:	1
+	Label:	"Natal Estuarine Shore"
+	MinStr:	"Natal Estuarine Shore"
+	MaxStr:	"Natal Estuarine Shore"
+	Precision:	-3
+)
+
+(LClass.634
+	IsText:	1
+	Label:	"Natal Exposed Rocky Coast"
+	MinStr:	"Natal Exposed Rocky Coast"
+	MaxStr:	"Natal Exposed Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.635
+	IsText:	1
+	Label:	"Natal Gravel Shelf"
+	MinStr:	"Natal Gravel Shelf"
+	MaxStr:	"Natal Gravel Shelf"
+	Precision:	-3
+)
+
+(LClass.636
+	IsText:	1
+	Label:	"Natal Gravel Shelf Edge"
+	MinStr:	"Natal Gravel Shelf Edge"
+	MaxStr:	"Natal Gravel Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.637
+	IsText:	1
+	Label:	"Natal Inshore Gravel"
+	MinStr:	"Natal Inshore Gravel"
+	MaxStr:	"Natal Inshore Gravel"
+	Precision:	-3
+)
+
+(LClass.638
+	IsText:	1
+	Label:	"Natal Inshore Reef"
+	MinStr:	"Natal Inshore Reef"
+	MaxStr:	"Natal Inshore Reef"
+	Precision:	-3
+)
+
+(LClass.639
+	IsText:	1
+	Label:	"Natal Mixed Sediment Shelf"
+	MinStr:	"Natal Mixed Sediment Shelf"
+	MaxStr:	"Natal Mixed Sediment Shelf"
+	Precision:	-3
+)
+
+(LClass.640
+	IsText:	1
+	Label:	"Natal Mixed Sediment Shelf Edge"
+	MinStr:	"Natal Mixed Sediment Shelf Edge"
+	MaxStr:	"Natal Mixed Sediment Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.641
+	IsText:	1
+	Label:	"Natal Mixed Shore"
+	MinStr:	"Natal Mixed Shore"
+	MaxStr:	"Natal Mixed Shore"
+	Precision:	-3
+)
+
+(LClass.642
+	IsText:	1
+	Label:	"Natal Muddy Inshore"
+	MinStr:	"Natal Muddy Inshore"
+	MaxStr:	"Natal Muddy Inshore"
+	Precision:	-3
+)
+
+(LClass.643
+	IsText:	1
+	Label:	"Natal Muddy Shelf"
+	MinStr:	"Natal Muddy Shelf"
+	MaxStr:	"Natal Muddy Shelf"
+	Precision:	-3
+)
+
+(LClass.644
+	IsText:	1
+	Label:	"Natal Muddy Shelf Edge"
+	MinStr:	"Natal Muddy Shelf Edge"
+	MaxStr:	"Natal Muddy Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.645
+	IsText:	1
+	Label:	"Natal Sandy Inshore"
+	MinStr:	"Natal Sandy Inshore"
+	MaxStr:	"Natal Sandy Inshore"
+	Precision:	-3
+)
+
+(LClass.646
+	IsText:	1
+	Label:	"Natal Sandy Shelf"
+	MinStr:	"Natal Sandy Shelf"
+	MaxStr:	"Natal Sandy Shelf"
+	Precision:	-3
+)
+
+(LClass.647
+	IsText:	1
+	Label:	"Natal Sandy Shelf Edge"
+	MinStr:	"Natal Sandy Shelf Edge"
+	MaxStr:	"Natal Sandy Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.648
+	IsText:	1
+	Label:	"Natal Shelf Edge Reef"
+	MinStr:	"Natal Shelf Edge Reef"
+	MaxStr:	"Natal Shelf Edge Reef"
+	Precision:	-3
+)
+
+(LClass.649
+	IsText:	1
+	Label:	"Natal Shelf Reef"
+	MinStr:	"Natal Shelf Reef"
+	MaxStr:	"Natal Shelf Reef"
+	Precision:	-3
+)
+
+(LClass.650
+	IsText:	1
+	Label:	"Natal Very Exposed Rocky Coast"
+	MinStr:	"Natal Very Exposed Rocky Coast"
+	MaxStr:	"Natal Very Exposed Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.651
+	IsText:	1
+	Label:	"Natal-Delagoa Dissipative Sandy Coast"
+	MinStr:	"Natal-Delagoa Dissipative Sandy Coast"
+	MaxStr:	"Natal-Delagoa Dissipative Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.652
+	IsText:	1
+	Label:	"Natal-Delagoa Dissipative-Intermediate Sandy Coast"
+	MinStr:	"Natal-Delagoa Dissipative-Intermediate Sandy Coast"
+	MaxStr:	"Natal-Delagoa Dissipative-Intermediate Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.653
+	IsText:	1
+	Label:	"Natal-Delagoa Estuarine Shore"
+	MinStr:	"Natal-Delagoa Estuarine Shore"
+	MaxStr:	"Natal-Delagoa Estuarine Shore"
+	Precision:	-3
+)
+
+(LClass.654
+	IsText:	1
+	Label:	"Natal-Delagoa Intermediate Sandy Coast"
+	MinStr:	"Natal-Delagoa Intermediate Sandy Coast"
+	MaxStr:	"Natal-Delagoa Intermediate Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.655
+	IsText:	1
+	Label:	"Natal-Delagoa Reflective Sandy Coast"
+	MinStr:	"Natal-Delagoa Reflective Sandy Coast"
+	MaxStr:	"Natal-Delagoa Reflective Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.656
+	IsText:	1
+	Label:	"South Atlantic Abyss"
+	MinStr:	"South Atlantic Abyss"
+	MaxStr:	"South Atlantic Abyss"
+	Precision:	-3
+)
+
+(LClass.657
+	IsText:	1
+	Label:	"South Atlantic Abyss With Ferro-Manganese Deposits"
+	MinStr:	"South Atlantic Abyss With Ferro-Manganese Deposits"
+	MaxStr:	"South Atlantic Abyss With Ferro-Manganese Deposits"
+	Precision:	-3
+)
+
+(LClass.658
+	IsText:	1
+	Label:	"South Atlantic Lower Bathyal"
+	MinStr:	"South Atlantic Lower Bathyal"
+	MaxStr:	"South Atlantic Lower Bathyal"
+	Precision:	-3
+)
+
+(LClass.659
+	IsText:	1
+	Label:	"South Atlantic Upper Bathyal"
+	MinStr:	"South Atlantic Upper Bathyal"
+	MaxStr:	"South Atlantic Upper Bathyal"
+	Precision:	-3
+)
+
+(LClass.660
+	IsText:	1
+	Label:	"Southeast Atlantic Seamounts"
+	MinStr:	"Southeast Atlantic Seamounts"
+	MaxStr:	"Southeast Atlantic Seamounts"
+	Precision:	-3
+)
+
+(LClass.661
+	IsText:	1
+	Label:	"Southern Benguela Canyon"
+	MinStr:	"Southern Benguela Canyon"
+	MaxStr:	"Southern Benguela Canyon"
+	Precision:	-3
+)
+
+(LClass.662
+	IsText:	1
+	Label:	"Southern Benguela Carbonate Mound"
+	MinStr:	"Southern Benguela Carbonate Mound"
+	MaxStr:	"Southern Benguela Carbonate Mound"
+	Precision:	-3
+)
+
+(LClass.663
+	IsText:	1
+	Label:	"Southern Benguela Dissipative Sandy Coast"
+	MinStr:	"Southern Benguela Dissipative Sandy Coast"
+	MaxStr:	"Southern Benguela Dissipative Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.664
+	IsText:	1
+	Label:	"Southern Benguela Dissipative-Intermediate Sandy Coast"
+	MinStr:	"Southern Benguela Dissipative-Intermediate Sandy Coast"
+	MaxStr:	"Southern Benguela Dissipative-Intermediate Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.665
+	IsText:	1
+	Label:	"Southern Benguela Estuarine Shore"
+	MinStr:	"Southern Benguela Estuarine Shore"
+	MaxStr:	"Southern Benguela Estuarine Shore"
+	Precision:	-3
+)
+
+(LClass.666
+	IsText:	1
+	Label:	"Southern Benguela Gravel Outer Shelf"
+	MinStr:	"Southern Benguela Gravel Outer Shelf"
+	MaxStr:	"Southern Benguela Gravel Outer Shelf"
+	Precision:	-3
+)
+
+(LClass.667
+	IsText:	1
+	Label:	"Southern Benguela Gravel Shelf Edge"
+	MinStr:	"Southern Benguela Gravel Shelf Edge"
+	MaxStr:	"Southern Benguela Gravel Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.668
+	IsText:	1
+	Label:	"Southern Benguela Hard Outer Shelf"
+	MinStr:	"Southern Benguela Hard Outer Shelf"
+	MaxStr:	"Southern Benguela Hard Outer Shelf"
+	Precision:	-3
+)
+
+(LClass.669
+	IsText:	1
+	Label:	"Southern Benguela Hard Shelf Edge"
+	MinStr:	"Southern Benguela Hard Shelf Edge"
+	MaxStr:	"Southern Benguela Hard Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.670
+	IsText:	1
+	Label:	"Southern Benguela Intermediate Sandy Coast"
+	MinStr:	"Southern Benguela Intermediate Sandy Coast"
+	MaxStr:	"Southern Benguela Intermediate Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.671
+	IsText:	1
+	Label:	"Southern Benguela Muddy Outer Shelf"
+	MinStr:	"Southern Benguela Muddy Outer Shelf"
+	MaxStr:	"Southern Benguela Muddy Outer Shelf"
+	Precision:	-3
+)
+
+(LClass.672
+	IsText:	1
+	Label:	"Southern Benguela Muddy Shelf Edge"
+	MinStr:	"Southern Benguela Muddy Shelf Edge"
+	MaxStr:	"Southern Benguela Muddy Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.673
+	IsText:	1
+	Label:	"Southern Benguela Outer Shelf Reef"
+	MinStr:	"Southern Benguela Outer Shelf Reef"
+	MaxStr:	"Southern Benguela Outer Shelf Reef"
+	Precision:	-3
+)
+
+(LClass.674
+	IsText:	1
+	Label:	"Southern Benguela Reflective Sandy Coast"
+	MinStr:	"Southern Benguela Reflective Sandy Coast"
+	MaxStr:	"Southern Benguela Reflective Sandy Coast"
+	Precision:	-3
+)
+
+(LClass.675
+	IsText:	1
+	Label:	"Southern Benguela Sandy Outer Shelf"
+	MinStr:	"Southern Benguela Sandy Outer Shelf"
+	MaxStr:	"Southern Benguela Sandy Outer Shelf"
+	Precision:	-3
+)
+
+(LClass.676
+	IsText:	1
+	Label:	"Southern Benguela Sandy Shelf Edge"
+	MinStr:	"Southern Benguela Sandy Shelf Edge"
+	MaxStr:	"Southern Benguela Sandy Shelf Edge"
+	Precision:	-3
+)
+
+(LClass.677
+	IsText:	1
+	Label:	"Southwest Indian Abyss"
+	MinStr:	"Southwest Indian Abyss"
+	MaxStr:	"Southwest Indian Abyss"
+	Precision:	-3
+)
+
+(LClass.678
+	IsText:	1
+	Label:	"Southwest Indian Abyss With Ferro-Manganese Deposits"
+	MinStr:	"Southwest Indian Abyss With Ferro-Manganese Deposits"
+	MaxStr:	"Southwest Indian Abyss With Ferro-Manganese Deposits"
+	Precision:	-3
+)
+
+(LClass.679
+	IsText:	1
+	Label:	"Southwest Indian Lower Bathyal"
+	MinStr:	"Southwest Indian Lower Bathyal"
+	MaxStr:	"Southwest Indian Lower Bathyal"
+	Precision:	-3
+)
+
+(LClass.680
+	IsText:	1
+	Label:	"Southwest Indian Lower Bathyal With Ferro-Manganese Deposits"
+	MinStr:	"Southwest Indian Lower Bathyal With Ferro-Manganese Deposits"
+	MaxStr:	"Southwest Indian Lower Bathyal With Ferro-Manganese Deposits"
+	Precision:	-3
+)
+
+(LClass.681
+	IsText:	1
+	Label:	"Southwest Indian Seamounts"
+	MinStr:	"Southwest Indian Seamounts"
+	MaxStr:	"Southwest Indian Seamounts"
+	Precision:	-3
+)
+
+(LClass.682
+	IsText:	1
+	Label:	"Southwest Indian Upper Bathyal"
+	MinStr:	"Southwest Indian Upper Bathyal"
+	MaxStr:	"Southwest Indian Upper Bathyal"
+	Precision:	-3
+)
+
+(LClass.683
+	IsText:	1
+	Label:	"Southwestern Cape Boulder Shore"
+	MinStr:	"Southwestern Cape Boulder Shore"
+	MaxStr:	"Southwestern Cape Boulder Shore"
+	Precision:	-3
+)
+
+(LClass.684
+	IsText:	1
+	Label:	"Southwestern Cape Exposed Rocky Coast"
+	MinStr:	"Southwestern Cape Exposed Rocky Coast"
+	MaxStr:	"Southwestern Cape Exposed Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.685
+	IsText:	1
+	Label:	"Southwestern Cape Hard Inner Shelf"
+	MinStr:	"Southwestern Cape Hard Inner Shelf"
+	MaxStr:	"Southwestern Cape Hard Inner Shelf"
+	Precision:	-3
+)
+
+(LClass.686
+	IsText:	1
+	Label:	"Southwestern Cape Inshore Hard Grounds"
+	MinStr:	"Southwestern Cape Inshore Hard Grounds"
+	MaxStr:	"Southwestern Cape Inshore Hard Grounds"
+	Precision:	-3
+)
+
+(LClass.687
+	IsText:	1
+	Label:	"Southwestern Cape Inshore Reef"
+	MinStr:	"Southwestern Cape Inshore Reef"
+	MaxStr:	"Southwestern Cape Inshore Reef"
+	Precision:	-3
+)
+
+(LClass.688
+	IsText:	1
+	Label:	"Southwestern Cape Island"
+	MinStr:	"Southwestern Cape Island"
+	MaxStr:	"Southwestern Cape Island"
+	Precision:	-3
+)
+
+(LClass.689
+	IsText:	1
+	Label:	"Southwestern Cape Lagoon"
+	MinStr:	"Southwestern Cape Lagoon"
+	MaxStr:	"Southwestern Cape Lagoon"
+	Precision:	-3
+)
+
+(LClass.690
+	IsText:	1
+	Label:	"Southwestern Cape Mixed Shore"
+	MinStr:	"Southwestern Cape Mixed Shore"
+	MaxStr:	"Southwestern Cape Mixed Shore"
+	Precision:	-3
+)
+
+(LClass.691
+	IsText:	1
+	Label:	"Southwestern Cape Sandy Inner Shelf"
+	MinStr:	"Southwestern Cape Sandy Inner Shelf"
+	MaxStr:	"Southwestern Cape Sandy Inner Shelf"
+	Precision:	-3
+)
+
+(LClass.692
+	IsText:	1
+	Label:	"Southwestern Cape Sandy Inshore"
+	MinStr:	"Southwestern Cape Sandy Inshore"
+	MaxStr:	"Southwestern Cape Sandy Inshore"
+	Precision:	-3
+)
+
+(LClass.693
+	IsText:	1
+	Label:	"Southwestern Cape Sheltered Rocky Coast"
+	MinStr:	"Southwestern Cape Sheltered Rocky Coast"
+	MaxStr:	"Southwestern Cape Sheltered Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.694
+	IsText:	1
+	Label:	"Southwestern Cape Very Exposed Rocky Coast"
+	MinStr:	"Southwestern Cape Very Exposed Rocky Coast"
+	MaxStr:	"Southwestern Cape Very Exposed Rocky Coast"
+	Precision:	-3
+)
+
+(LClass.695
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.696
+	Color:	697
+	Outline:	1
+	OutlineColor:	698
+	OutlineWidth:	0.10000000000000
+	BgColor:	699
+)
+
+(TClr.697
+	Name:	"Transparent"
+)
+
+(TClr.698
+	Name:	"Transparent"
+)
+
+(TClr.699
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.700
+)
+
+(NameDict.701
+)
+
