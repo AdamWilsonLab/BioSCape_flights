@@ -2,7 +2,7 @@
 title: "Greater Cape Floristic Region"
 ---
 
-<iframe src="map.html" height="200" width="100%"></iframe>
 
+Add map
 
 blah blah
