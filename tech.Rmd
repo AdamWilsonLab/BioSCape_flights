@@ -2,21 +2,4 @@
 title: "Technology"
 ---
 
-# Aircraft
-
-##ER-2
-
-
-# Sensors
-
-## Airborne Visible/Infrared Imaging Spectrometer-Next Generation (AVIRIS-NG)
-
-The AVIRIS-NG is an imaging spectrometer with a spectral range of 380-2510 nm and sampling resolution of 5nm. The AVIRIS-NG is the replacement to the widely used AVIRIS-Classic. AVIRIS-NG has been used for a variety of remote sensing applications in both marine and terrestial domains since 2012. Visit [here](https://aviris-ng.jpl.nasa.gov/) for more details on the AVIRIS-NG.
-
-## HyTES
-
-## PRISM
-
-## LVIS
-
-
+blah blah
