@@ -3,17 +3,18 @@ title: "Technology"
 ---
 
 # Aircraft
+***
 
 ## [ER-2](https://airbornescience.nasa.gov/aircraft/ER-2)
 
-This field campaign in the Greater Cape Floristic Region (GCFR) would use NASA's ER-2 aircraft as a platform for the sensors listed below. The ER-2 is a high altitude aircraft that operates at 70,000 ft (~21 km). This simulates the conditions of orbiting satellites which provides an important scaling step for future biodiversity observatory satellites.
-
+This field campaign would use NASA's ER-2 aircraft as a platform for the sensors listed below. The ER-2 is a high altitude aircraft that operates at 70,000 ft (~21 km) with a flight range of approximately 5700 miles. This altitude and range simulate the conditions of orbiting satellites, providing an important scaling step for future space-based biodiversity missions.
 
 # Sensors
+***
 
 ## [Airborne Visible/Infrared Imaging Spectrometer-Next Generation (AVIRIS-NG)](https://aviris-ng.jpl.nasa.gov/)
 
-The AVIRIS-NG is an cross-track imaging spectrometer with a spectral range of 380-2510 nm and sampling resolution of 5nm. It is the replacement to the widely used AVIRIS-Classic.
+The AVIRIS-NG is an whisk-broom imaging spectrometer with a spectral range of 380-2510 nm and sampling resolution of 5nm. It is the replacement to the widely used AVIRIS-Classic.
 
 Within the GCFR, AVIRIS-NG would be used to assess a wide suite of plant functional traits (chemical, structural and physiological) and community composition characteristics. It would also be used in marine applications such as sensing chlorophyll concentrations. 
 
@@ -29,4 +30,4 @@ The PRISM sensor is a pushbroom imaging spectrometer with a spectral range from 
 
 LVIS is a laser altimeter scanner able to produce 3-D images of topography and vegetation. Data from LVIS would be fused with spectral information from the above scanners to enhance biodiversity observation and prediction.
 
-
+***
