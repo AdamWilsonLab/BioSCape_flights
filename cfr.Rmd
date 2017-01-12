@@ -21,4 +21,6 @@ South Africa’s oceans are broadly composed of both temperate and tropical mari
 #Freshwater Aquatic
 ***
 
-Aquatic text here
+Similar to its terrestrial and marine environments, South Africa’s freshwater aquatic systems also display high amounts of endemism in both its vegetation and invertebrate fauna. It is listed among the World’s 200 Significant Ecoregions. Famously, the endemism in the shallow lakes, or vleis, around Cape Town sparked Evelyn Hutchinson’s initial interest in limnology and ecology.
+
+South Africa is a chronically water-scarce country at high risk to the potential impacts of climate change. As precipitation cycles and water sources become more uncertain with climate change, South Africa’s freshwater ecosystems are not alone in their threatened existence. Remotely sensed data could answer many question such as the following that can lead to better understanding of freshwater biodiversity, resource and conservation implementation.
