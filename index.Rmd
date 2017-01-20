@@ -6,10 +6,7 @@ We propose to develop plans for a NASA field campaign incorporating hyperspectra
 
 # Project Team
 
-## Adam M. Wilson, PI
-
-## John Silander, Co-I
-
-## Cory Merow
-
-## Henry Frye
+* [Adam M. Wilson, PI (University at Buffalo)](http://adamwilson.us)
+* [John Silander, Co-I (University of Connecticut)](http://hydrodictyon.eeb.uconn.edu/people/silander/)
+* [Cory Merow (Yale University)](https://cmerow.github.io)
+* Henry Frye (University of Connecticut)
