@@ -1,5 +1,5 @@
-
 library(rgdal)
+
 library(leaflet)
 library(rgeos)
 library(raster)
@@ -10,10 +10,10 @@ library(sf)
 library(ggmap)
 
 # import dem
-dem=raster("_data/dem/10mdem.tif")
+dem=raster("data/dem/10mdem.tif")
 
 
-cp=readOGR("_data/CapePoint1969VegMap/CP_Vegmap.shp")%>%
+cp=readOGR("data/CapePoint1969VegMap/CP_Vegmap.shp")%>%
   spTransform(CRSobj = projection(dem))
 cpf=levels(cp$Veg)
 

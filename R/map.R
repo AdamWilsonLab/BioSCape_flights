@@ -17,7 +17,7 @@ GM="+init=epsg:3857" # google mercator projection
 wproj="+proj=utm +zone=34 +south +ellps=WGS84 +datum=WGS84 +units=m +no_defs" # working projection 
 wgs84="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
 
-eco=readOGR("_data/vegm2006_biomes_withforests/vegm2006_biomes_withforests.shp")
+eco=readOGR("data/vegm2006_biomes_withforests/vegm2006_biomes_withforests.shp")
 #eco=subset(eco,BIOMENAME%in%c("Fynbos","Succulent Karoo","Nama-Karoo"))
 eco$BIOMENAME=as.character(eco$BIOMENAME)
 eco=eco[!eco$POLYGONID%in%c(1,2,4,17,19,53,69,180,236,285,286),] #remove some forests that are not in the gcfr.  This list was created by looking at the shapefile in qgis.
@@ -34,7 +34,7 @@ ecosd$color=viridis::inferno(nrow(ecosd), begin=0.5)
 
 eproj=st_crs(ecosd)
 
-mar=readOGR("_data/NBA_marine_benthiccoastal_habitattypes/NBA_benthic_and_coastal_habitat.shp")
+mar=readOGR("data/NBA_marine_benthiccoastal_habitattypes/NBA_benthic_and_coastal_habitat.shp")
 #mar=subset(mar,!Biogeogr%in%c("Southeast Atlantic","South Atlantic","Southwest Indian","Natal","Natal-Delagoa","Delagoa","Harbour"))
 mar$Biogeogr=as.character(mar$Biogeogr)
 mars=gUnionCascaded(mar,id=mar$Biogeogr)#%>%
@@ -60,7 +60,7 @@ gcfr=filter(ecosd,
   st_sf()%>%
   st_set_crs(eproj)
 
-write_sf(gcfr,"_data/gcfr.shp")
+write_sf(gcfr,"data/gcfr.shp")
 
 # get bbox for region
 
@@ -75,7 +75,7 @@ gcfr_bbox2=st_bbox(gcfr_bbox); names(gcfr_bbox2)=c("left", "bottom", "right", "t
 bcfr=cfr%>%
   st_segmentize(20000)%>%
   st_transform(wproj)%>%
-  st_buffer(dist=20000,nQuadSegs=1000)%>%
+  st_buffer(dist=30000,nQuadSegs=1000)%>%
   st_transform(wgs84)
 
 ## ROIs
@@ -99,14 +99,14 @@ biomes=rbind(ecosd,marsd)%>%
 #biomes_all=gUnaryUnion(biomes)
 
 ## Protected areas
-sacad=readOGR("_data/SACAD_OR_2017_Q1/SACAD_OR_2017_Q1.shp")
+sacad=readOGR("data/SACAD_OR_2017_Q1/SACAD_OR_2017_Q1.shp")
 sacad2=sacad[sacad$SITE_TYPE%in%c("Biosphere Reserve","Ramsar Site"),]%>%
   gUnionCascaded(id="SITE_TYPE")%>%
   gSimplify(0.001,topologyPreserve = T)%>%
     st_as_sfc()%>%
   st_sf()
 
-sapad_raw=st_read("_data/SAPAD_OR_2017_Q1/SAPAD_OR_2017_Q1.shp")%>%
+sapad_raw=st_read("data/SAPAD_OR_2017_Q1/SAPAD_OR_2017_Q1.shp")%>%
   st_set_crs(st_crs(gcfr_bbox))%>%
   st_buffer(0)
 
@@ -150,9 +150,9 @@ saveWidget(lb, file="map.html")
 ##
 # ggplot stamen
 base <- get_stamenmap(gcfr_bbox2, zoom = 7, maptype = "toner-lite")
-base2 <- get_stamenmap(gcfr_bbox2, zoom = 9, maptype = "toner-lite")
+base2 <- get_stamenmap(gcfr_bbox2, zoom = 7, maptype = "toner-lite")
 
-base3=dismo::gmap(extent(gcfr), type='terrain', scale=2, zoom=7,  lonlat=T)
+#base3=dismo::gmap(extent(gcfr), type='terrain', scale=2, zoom=7,  lonlat=T)
 
 theme_set(theme_bw(28))
 
@@ -166,8 +166,8 @@ gcfrmap2=gcfrmap+
   scale_fill_manual(values=biomes$color,name="Biome")+
   guides(fill=guide_legend(ncol=2))+
   coord_sf(
-    ylim=c(gcfr_bb[c("bottom","top")]),
-    xlim=c(gcfr_bb[c("left","right")]))+
+    ylim=c(gcfr_bbox2[c("bottom","top")]),
+    xlim=c(gcfr_bbox2[c("left","right")]))+
   ylab("Latitude")+
   xlab("Longitude")+
   theme(legend.position=c(.75,.8))
@@ -199,8 +199,21 @@ dev.off()
 
 ### ROI map
 ### 
-f1=makeFlight(x=3750/8,y=14*8,angle=0)%>%
+f1=makeFlight(origin =c(18.2,-34.5), x=3750/15,y=14*15,angle=0)%>%
   st_transform(eproj)
+
+f2=makeFlight(origin =c(20.9,-34), x=3750/8,y=14*8,angle=0)%>%
+  st_transform(eproj)
+
+
+st_write(f1,"data/ROI/roi_01.shp")
+st_write(f2,"data/ROI/roi_02.shp")
+
+  
+st_bbox(f1)
+
+#f1=makeFlight(x=3750/8,y=14*8,angle=0)%>%
+#  st_transform(eproj)
 
 #f2=makeFlight(origin=c(17.75,-34.9),x=2*3750/10,y=14*2.5*10,angle=0)%>%
 #  st_transform(eproj)
@@ -210,14 +223,12 @@ plot(f1)
 
 gcfrmap2 = ggmap(base2)
 
-gcfrmap_roi=gcfrmap+
-  geom_sf(data=f1,inherit.aes = F,fill=NA,col="red",linetype="dotted",size=1.5)+
+gcfrmap_roi=gcfrmap2+
+  geom_sf(data=f1,inherit.aes = F,fill=NA,col="red",linetype="dashed",size=1.5)+
+  geom_sf(data=f2,inherit.aes = F,fill=NA,col="red",linetype="dashed",size=1.5)+
   geom_sf(data=bcfr,inherit.aes = F,fill=NA,col="blue",size=2)+
   geom_sf(data=sapad,inherit.aes = F,col=NA,fill="darkgreen",alpha=.5)+
   geom_sf(data=gcfr,inherit.aes = F,fill=NA,color="black")+
-#  coord_sf(
-#    ylim=c(-34.9,-33.5),
-#    xlim=c(18,20))+
   ylab("Latitude")+
   xlab("Longitude")
 gcfrmap_roi

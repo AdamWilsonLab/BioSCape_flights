@@ -54,17 +54,21 @@ makeFlight=function(origin=c(18.5,-34),angle=0,x=14,y=3750,scale=1,wgs84=T,proje
 }
 
 # get map data
-cfr_bb=st_bbox(st_buffer(cfr,dist=0.3)); names(cfr_bb)=c("left", "bottom", "right", "top")
-gcfrmap <- get_stamenmap(cfr_bb, zoom = 7, maptype = "terrain-background")%>%ggmap()
+# 
+gcfr=read_sf("data/gcfr.shp")
+
+cfr_bb=st_bbox(st_buffer(gcfr,dist=0.3)); names(cfr_bb)=c("left", "bottom", "right", "top")
+gcfrmap <- get_stamenmap(cfr_bb, zoom = 7, 
+                         maptype = "terrain-background")%>%ggmap()
 
 
 # Assume 5 hours of data in 10 30min strips
-f1=makeFlight(x=3750/10,y=14*10,angle=-45);plot(f1)
+f1=makeFlight(origin=c(18,-34), x=3750/10,y=14*10,angle=-45);plot(f1)
 
 
-#gcfrmap+
-#  geom_sf(data=f1,alpha=.5, inherit.aes = FALSE)+
-#  ylab("Latitude")+
-#  xlab("Longitude")#+  theme_set(theme_bw(25))
+gcfrmap+
+  geom_sf(data=f1,alpha=.5, inherit.aes = FALSE)+
+  ylab("Latitude")+
+  xlab("Longitude")#+  theme_set(theme_bw(25))
 
 
