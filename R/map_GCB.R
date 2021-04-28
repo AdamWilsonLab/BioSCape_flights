@@ -37,9 +37,14 @@ eproj=st_crs(ecosd)
 mar=readOGR("data/NBA_marine_benthiccoastal_habitattypes/NBA_benthic_and_coastal_habitat.shp")
 #mar=subset(mar,!Biogeogr%in%c("Southeast Atlantic","South Atlantic","Southwest Indian","Natal","Natal-Delagoa","Delagoa","Harbour"))
 mar$Biogeogr=as.character(mar$Biogeogr)
-mars=gUnionCascaded(mar,id=mar$Biogeogr)#%>%
-#  gSimplify(0.001,topologyPreserve = T)
-#  
+mars=mar %>% 
+#  st_as_sf() %>% 
+#  st_buffer(dist =  0) %>% 
+  gBuffer(width=0,byid = T) %>% 
+  gUnionCascaded(id=mar$Biogeogr)#%>%
+#  gSimplify(0.001,topologyPreserve = T) %>% 
+
+  
 marsd=SpatialPolygonsDataFrame(mars,
                                data.frame(name=names(mars),
                                           row.names = names(mars)))%>%
@@ -81,19 +86,10 @@ bcfr=cfr%>%
   st_buffer(dist=30000,nQuadSegs=1000)%>%
   st_transform(wgs84)
 
-## ROIs
-roi1=st_as_sfc("POLYGON((17.75 -31.4,20 -31.4,20 -34.9,17.75 -34.9,17.75 -31.4))",crs=4326)%>%
-  st_sf()%>% st_set_crs(eproj)
+write_sf(bcfr,"data/gcfr_buffered.shp")
 
-roi2=st_as_sfc("POLYGON((20 -33,25.9 -33,25.9 -34.9,25.9 -34.9,20 -34.9,20 -33))",crs=4326)%>%
-  st_sf()%>%
-  st_set_crs(eproj)
-
-### ROI Areas
-#roi1%>%st_transform()%>%st_area()
 
 cfrp=st_coordinates(cfr)#@polygons[[1]]@Polygons[[1]]@coords
-  
 
 
 ## Combine and crop to GCFR
@@ -118,39 +114,7 @@ gcfr_buffer=st_buffer(gcfr,0.5)
 sapad=filter(sapad_raw,st_intersects(sapad_raw, gcfr, sparse = FALSE))%>%
   st_simplify(dTolerance=0.001)
 
-#  gUnionCascaded(id="CUR_NME")%>%
-#  gSimplify(0.001,topologyPreserve = T)#%>%
-#  st_as_sfc()%>%
-#  st_sf()
-
-# export table mountain polygon
-#tmnp=read_sf("_data/SAPAD_OR_2017_Q1/SAPAD_OR_2017_Q1.shp")%>%
-#  filter(CUR_NME=="Table Mountain National Park")%>%
-#  st_simplify(dTolerance=0.001)
-#st_write(tmnp,"~/Downloads/",layer="tmnp",driver="ESRI Shapefile")
-
-#"https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png"
-#"http://tile.stamen.com/terrain-background/{z}/{x}/{y}.png"
 lc=st_coordinates(st_centroid(biomes$geom))
-
-lb=leaflet(biomes)%>% 
-  addTiles(urlTemplate = "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}.png")%>%
-  addPolygons(
-    stroke = T, fillOpacity = .5, smoothFactor = 0.5,
-    #fillColor = ~colorFactor("Paired",name)(name),
-    color="black", weight=0.2,
-    fillColor = biomes$color,
-    popup=~htmlEscape(name))%>%
-  addPolygons(
-    lat=st_coordinates(roi1)[,2],
-    lng=st_coordinates(roi1)[,1],
-    stroke = T, fillOpacity = 0,
-    color="red", weight=3)
-lb
-
-saveWidget(lb, file="map.html")
-
-
 
 ##
 # ggplot stamen
@@ -166,8 +130,10 @@ gcfrmap = ggmap(base)
 
 gcfrmap2=gcfrmap+
   geom_sf(data=biomes,inherit.aes = F,aes(fill=name,color=type),color=NA,alpha=.4)+
-  geom_sf(data=cfr,inherit.aes = F,fill=NA,color="black",linetype="dashed")+
-  geom_sf(data=gcfr,inherit.aes = F,fill=NA,color="black")+
+#  geom_sf(data=cfr,inherit.aes = F,fill=NA,color="black",linetype="dashed")+
+#  geom_sf(data=gcfr,inherit.aes = F,fill=NA,color="black")+
+  geom_sf(data=bcfr,inherit.aes = F,fill=NA,col="blue",size=2)+
+  geom_sf(data=sapad,inherit.aes = F,col=NA,fill="darkgreen",alpha=.5)+
   scale_fill_manual(values=biomes$color,name="Biome")+
   guides(fill=guide_legend(ncol=2))+
   coord_sf(
@@ -176,9 +142,8 @@ gcfrmap2=gcfrmap+
   ylab("Latitude")+
   xlab("Longitude")+
   theme(legend.position=c(.75,.8))
-#theme(legend.position="bottom",legend.position=c(.9,.75))
 
-png("img/biomes.png",width=1200,height=1000)
+png("img/GCB_biomes.png",width=1200,height=1000)
 gcfrmap2
 dev.off()
 
@@ -208,8 +173,6 @@ gcfrmap_poster=gcfrmap2+
   geom_sf(data=st_union(sapad),col="darkgreen",fill=NA,inherit.aes = F)+
 #  geom_sf(data=gcfr,inherit.aes = F,fill=NA,color="black")+
   geom_sf(data=bcfr,inherit.aes = F,fill=NA,col="blue",size=2)+
-  geom_sf(data=roi1,inherit.aes = F,fill=NA,col="red",linetype="dashed",size=1.5)+
-  geom_sf(data=roi2,inherit.aes = F,fill=NA,col="red",linetype="dashed",size=1.5)+
   scale_fill_manual(values=biomes$color,name="Biome")+
   #scale_colour_discrete(name  = "Protected areas",
   #                      labels=c("Protected areas"))+
@@ -224,31 +187,11 @@ gcfrmap_poster=gcfrmap2+
         text = element_text(size=36),
         legend.text = element_text(size=20))
 
-png("img/poster.png",width=1500,height=800)
+png("img/gcb_figure.png",width=1500,height=800)
 gcfrmap_poster
 dev.off()
 
 
-### ROI map
-### 
-#f1=makeFlight(origin =c(17.85,-34.3), x=3750/18,y=14*18,angle=-12)%>%
-#  st_transform(eproj)
-#f2=makeFlight(origin =c(19.1,-34.5), x=3750/6,y=14*6,angle=-12)%>%
-#  st_transform(eproj)
-
-  # f1=c(xmin = 17.75, xmax = 20, ymax = -31.4, ymin = -34.9)%>%
-  # st_bbox(crs = st_crs(4326))%>%
-  # st_as_sfc()
-  #   
-  # f2=c(xmin = 20, xmax = 25.9, ymax = -33, ymin = -34.9)%>%
-  #   st_bbox(crs = st_crs(4326))%>%
-  #   st_as_sfc()
-  # 
-  # ## Coordinates for flight request 
-  # ## https://airbornescience.nasa.gov/sofrs/FlightRequest/flight_request.php?id=20181112-104242
-  # 
-  # st_coordinates(f1)[c(4,1,3,2),2:1] 
-  # st_coordinates(f2)[c(4,1,3,2),2:1]
 
 gcfrmap2 = ggmap(base2)
 
@@ -262,12 +205,6 @@ gcfrmap_roi=gcfrmap2+
   xlab("Longitude")
 gcfrmap_roi
 
-png("img/roi.png",width=1200,height=1000)
-gcfrmap_roi
-dev.off()
-
-st_write(f1,"data/ROI/roi_01.shp", delete_dsn=T)
-st_write(f2,"data/ROI/roi_02.shp", delete_dsn=T)
 
 
 # Summary stats
