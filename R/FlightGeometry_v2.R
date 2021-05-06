@@ -78,20 +78,20 @@ sensors=bind_rows(AVIRISNG,HyTES,PRISM,LVIS) %>%
     swath_width_high=tan(tfov)*max(h),  #swath width high altitude
     spatial_resolution_low=tan(set_units(ifov,radians))*min(h) %>% set_units(m),  # spatial resolution in m
     spatial_resolution_mid=tan(set_units(ifov,radians))*median(h) %>% set_units(m),  # spatial resolution in m
-    spatial_resolution_high=tan(set_units(ifov,radians))*max(h) %>% set_units(m))  # spatial resolution in m
-
-sensors
-
-sensors %>% 
+    spatial_resolution_high=tan(set_units(ifov,radians))*max(h) %>% set_units(m)) %>%   # spatial resolution in m
   mutate(
     swath_width_km=paste0("[",round(swath_width_low,2),",",
                           round(swath_width_high,2),"]"),
     spatial_resolution_m=paste0("[",round(spatial_resolution_low,2),",",
-                                round(spatial_resolution_high),"]")) %>% 
+                                round(spatial_resolution_high),"]"))
+
+data.table::DT(sensors)
+
+sensors %>% 
   select(instrument,
-         #spectral_bands=spec_n,spectral_resolution=spec_res,
+         spectral_bands=spec_n,spectral_resolution=spec_res,
          swath_width_km,spatial_resolution_m) %>% 
-  knitr::kable()
+DT::datatable()
 
 
 #################
@@ -133,6 +133,9 @@ d=4815*(5/6) # 6 hour flight coverage in km (minus one hour for takeoff/landing)
 d
 swath_length=30
 
+p_jonkershoek=c(18.995,-34.1027)
+p_capepoint=c(18.435923,-34.359561)
+
 makeFlight=function(origin=c(18.995,-34.1027),angle=0,swath_width,swath_length,scale=1,wgs84=F,projection=wproj){
   # assumes origin is in lat/lon, angle in degrees, length and width in km.
   if(units(swath_width)$numerator!="km") error("swath_width must have units that are convertable to km")
@@ -164,17 +167,26 @@ makeFlight=function(origin=c(18.995,-34.1027),angle=0,swath_width,swath_length,s
 
 flights <- sensors %>% 
   rowwise() %>% 
-  mutate(geometry=makeFlight(swath_width = swath_width_mid,swath_length=set_units(swath_length,km))) %>% 
+  mutate(geometry=makeFlight(origin = p_capepoint,
+                             swath_width = swath_width_mid,
+                             swath_length=set_units(swath_length,km))) %>% 
   st_as_sf() %>% 
   mutate(instrument=factor(instrument,ordered=T,levels = c("HyTES","AVIRIS-NG","PRISM","LVIS")))
 
-bbox=st_bbox(st_transform(flights,4326));names(bbox)=c("left","bottom","right","top")
+bbox=st_transform(flights,4326) %>% 
+  st_buffer(dist = 0.05) %>% 
+  st_bbox();names(bbox)=c("left","bottom","right","top")
 
-hdf <- get_map(location=bbox, maptype="terrain", source="stamen")
+hdf <- get_map(location=bbox,
+              maptype="toner", zoom=12,
+              source="stamen")
 
 
 ggmap(hdf, extent = "normal")+
-  geom_sf(data=st_transform(flights,4326),mapping=aes(fill=instrument),alpha=.5,color=NA,inherit.aes = F)
+  geom_sf(data=st_transform(flights,4326),mapping=aes(fill=instrument),
+          alpha=.4,color=NA,inherit.aes = F)+
+  ylab("Latitude")+
+  xlab("Longitude")
 
 
 ggplot(flights,aes(fill=instrument),alpha=.5,color=NA)+
