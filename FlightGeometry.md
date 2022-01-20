@@ -12,6 +12,7 @@ library(ggmap)
 library(data.table)
 library(piggyback)
 library(geosphere)
+library(smoothr)
 source("R/make_flight_line.R")
 ```
 
@@ -142,9 +143,13 @@ set_units(d,"km")
 
 ``` r
 path=st_linestring(x=as.matrix(rbind(
-  c(18.47881,-34.37332),
-  c(18.41166,-33.91458))),dim="XY") %>% 
-  st_sfc() %>% st_sf(path=1,geom=.,crs=4326)
+  c(18.46929,-34.38451),
+  c(18.37620,-34.08127),
+  c(18.46486,-33.99350),
+  c(18.77962,-33.94030),
+  c(18.93478,-33.84011))),dim="XY") %>% 
+  st_sfc() %>% st_sf(path=1,geom=.,crs=4326) %>% 
+  smooth(method = "ksmooth")
 ```
 
 ## Calculate instrument polygons
@@ -175,6 +180,7 @@ hdf <- get_map(location=bbox,
 ggmap(hdf, extent = "normal")+
   geom_sf(data=st_transform(flights,4326),mapping=aes(fill=instrument),
           alpha=.4,color=NA,inherit.aes = F)+
+  geom_sf(data=st_transform(path,4326),inherit.aes = F)+
   ylab("Latitude")+
   xlab("Longitude")
 ```
