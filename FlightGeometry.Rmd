@@ -183,6 +183,38 @@ d=4815*(5/6) # 6 hour flight coverage in km (minus one hour for takeoff/landing)
 set_units(d,"km")
 ```
 
+
+```{r, eval=F, echo=F}
+# Flight parameter visualization
+altitudes=c(seq(1000,30000,by=10000)) %>% set_units(ft)
+
+sensor_params <- sensors %>% 
+  select(instrument,ifov,tfov) %>% 
+    expand_grid(altitudes) %>% 
+        rowwise() %>% 
+        mutate(
+          swath_width=get_ground_fov(altitudes,tfov) %>% set_units(km),
+          gifov=get_ground_fov(altitudes, ifov)  %>% set_units(m)) %>% 
+  gather(key="key",value="value",-instrument,-ifov,-tfov,-altitudes)
+
+p1=sensor_params %>% 
+  ggplot(aes(y=altitudes,x=gifov,color=instrument))+
+  geom_line()
+
+p2=sensor_params %>% 
+  ggplot(aes(y=altitudes,x=swath_width,color=instrument))+
+  geom_line()
+
+sensor_params %>% 
+  ggplot(aes(y=altitudes,x=value,color=instrument))+
+  facet_wrap(~key)+
+  geom_line()
+
+
+plot_grid(p1,p2,byrow = T,align = "v")
+
+```
+
 # Example Path
 
 ```{r}

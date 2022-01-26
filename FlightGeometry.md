@@ -235,7 +235,7 @@ ggmap(hdf, extent = "normal")+
 
     ## Coordinate system already present. Adding new coordinate system, which will replace the existing one.
 
-![](FlightGeometry_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](FlightGeometry_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
 
 # Write KML for Google Earth Visualization
 
