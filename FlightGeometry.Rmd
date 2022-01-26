@@ -105,29 +105,72 @@ LVIS=data.frame(
 )
 ```
 
+## Define angular functions
+
+```{r}
+get_ground_fov<- function(h,fov){
+  2*set_units(h,km)*tan(set_units(fov/2,radians)) 
+}
+
+```
 
 ## Instrument Summary
 
 ```{r}
 sensors=bind_rows(AVIRISNG,HyTES,PRISM,LVIS) %>% 
+  rowwise() %>% 
   mutate(
-    swath_width_low=tan(tfov)*min(h),  #swath width low altitude
-    swath_width_mid=tan(tfov)*median(h),  #swath width low altitude
-    swath_width_high=tan(tfov)*max(h),  #swath width high altitude
-    spatial_resolution_low=tan(set_units(ifov,radians))*min(h) %>% set_units(m),  # spatial resolution in m
-    spatial_resolution_mid=tan(set_units(ifov,radians))*median(h) %>% set_units(m),  # spatial resolution in m
-    spatial_resolution_high=tan(set_units(ifov,radians))*max(h) %>% set_units(m)) %>%   # spatial resolution in m
+    # get swath widths
+    swath_width_low=get_ground_fov(min(h),tfov) %>% set_units(km),
+    swath_width_mid=get_ground_fov(median(h),tfov) %>% set_units(km),  
+    swath_width_high=get_ground_fov(max(h), tfov) %>% set_units(km),  
+    # calculate GIFOV - Ground-projected instantaneous field of view
+    gifov_low=get_ground_fov(min(h), ifov)  %>% set_units(m),  
+    gifov_mid=get_ground_fov(median(h),ifov) %>% set_units(m),
+    gifov_high=get_ground_fov(max(h), ifov)%>% set_units(m)
+    ) %>% 
   mutate(
     swath_width_km=paste0("[",round(swath_width_low,2),",",
                           round(swath_width_high,2),"]"),
-    spatial_resolution_m=paste0("[",round(spatial_resolution_low,2),",",
-                                round(spatial_resolution_high),"]"))
+    gifov_m=paste0("[",round(gifov_low,2),",",
+                                round(gifov_high),"]"))
 
 sensors %>% 
   select(instrument,
          spectral_bands=spec_n,spectral_resolution=spec_res,
-         swath_width_km,spatial_resolution_m) %>% 
+         swath_width_km,spatial_resolution_m=gifov_m) %>% 
 DT::datatable()
+```
+
+
+## Compare with aviris-ng data
+Read data from [here](https://avirisng.jpl.nasa.gov/dataportal/)
+```{r,message=F, warning=F}
+
+avirisng=googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1UNgRz5EZNLcKtp9cykbi-0lG_D0LWq2lRffwFX3Lpkg/edit#gid=1639195767") %>% 
+  filter(grepl("Alt",.$Comments)) # keep only rows that report the altitude
+
+avirisng$alt=set_units(as.numeric(gsub("kft.*$","",gsub("Alt = ","",avirisng$Comments)))*1000,"ft")
+avirisng$calculated_gifov=get_ground_fov(avirisng$alt,set_units(1,mrad)) %>% set_units(m)
+
+
+avirisng %>% 
+  filter(alt<set_units(70000,ft)) %>% 
+  ggplot(aes(x=`Pixel Size`,y=calculated_gifov))+
+  geom_point()+
+  geom_abline(slope=1,intercept=0,col="red")+
+  coord_equal()+
+  xlab("Pixel size (m) reported by AVIRIS team")
+
+```
+
+### AVIRIS-ng flight altitudes
+
+```{r}
+avirisng %>% 
+  filter(alt<set_units(60000,ft)) %>% 
+  ggplot(aes(x=alt))+
+  geom_histogram()
 ```
 
 # Typical flights
