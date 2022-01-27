@@ -148,13 +148,24 @@ avirisng=googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1UNgR
   filter(grepl("Alt",.$Comments)) # keep only rows that report the altitude
 
 avirisng$alt=set_units(as.numeric(gsub("kft.*$","",gsub("Alt = ","",avirisng$Comments)))*1000,"ft")
-avirisng$calculated_gifov=get_ground_fov(avirisng$alt,set_units(1,mrad)) %>% set_units(m)
+# subtract mean scene elevation
+avirisng$alt_over_ground=avirisng$alt-set_units(avirisng$`Mean Scene Elevation`,"m")
+avirisng$calculated_gifov=get_ground_fov(avirisng$alt_over_ground,set_units(1,mrad)) %>% set_units(m)
 
+avirisng$calculated_gifov_dif=avirisng$calculated_gifov-set_units(avirisng$`Pixel Size`,m)
 
+summary(avirisng$calculated_gifov_dif)
+```
+
+    ##      Min.   1st Qu.    Median      Mean   3rd Qu.      Max.      NA's 
+    ##   -4.0140   -0.0034    0.0910    0.6369    0.1717 2892.7071       131
+
+``` r
 avirisng %>% 
   filter(alt<set_units(70000,ft)) %>% 
   ggplot(aes(x=`Pixel Size`,y=calculated_gifov))+
-  geom_point()+
+  geom_hex(bins=100)+
+  scale_fill_viridis_c()+
   geom_abline(slope=1,intercept=0,col="red")+
   coord_equal()+
   xlab("Pixel size (m) reported by AVIRIS team")
